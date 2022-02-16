@@ -1,0 +1,546 @@
+\begin{theindex}
+
+  \item {$\sim$Bullet}
+    \subitem {Bullet}, \hyperpage{20}
+  \item {$\sim$Cockroach}
+    \subitem {Cockroach}, \hyperpage{25}
+  \item {$\sim$Game}
+    \subitem {Game}, \hyperpage{33}
+  \item {$\sim$ItemNotPlacebleTile}
+    \subitem {ItemNotPlacebleTile}, \hyperpage{43}
+  \item {$\sim$ItemPlacebleTile}
+    \subitem {ItemPlacebleTile}, \hyperpage{44}
+  \item {$\sim$MainWindow}
+    \subitem {MainWindow}, \hyperpage{46}
+
+  \indexspace
+
+  \item {A}
+    \subitem {game.hpp}, \hyperpage{69}
+  \item {AcquireTarget}
+    \subitem {BasicTower}, \hyperpage{15}
+    \subitem {MachineGunTower}, \hyperpage{45}
+    \subitem {ShotgunTower}, \hyperpage{50}
+    \subitem {Tower}, \hyperpage{52}
+  \item {Adult\_cockroach}, \hyperpage{13}
+    \subitem {Adult\_cockroach}, \hyperpage{13}
+  \item {adult\_cockroach.cpp}
+    \subitem {game}, \hyperpage{59}
+  \item {adult\_killed}
+    \subitem {Game}, \hyperpage{39}
+  \item {adult\_spawmed}
+    \subitem {Game}, \hyperpage{39}
+  \item {area\_of\_effect}
+    \subitem {Tower}, \hyperpage{54}
+  \item {assB}
+    \subitem {Cockroach}, \hyperpage{29}
+
+  \indexspace
+
+  \item {B}
+    \subitem {game.hpp}, \hyperpage{69}
+  \item {BalanceUpdateTimer}
+    \subitem {Game}, \hyperpage{39}
+  \item {barrel\_lenght}
+    \subitem {Tower}, \hyperpage{54}
+  \item {basic\_tower.cpp}
+    \subitem {game}, \hyperpage{60}
+  \item {basic\_tower\_icon}
+    \subitem {Game}, \hyperpage{39}
+  \item {BasicTower}, \hyperpage{14}
+    \subitem {AcquireTarget}, \hyperpage{15}
+    \subitem {BasicTower}, \hyperpage{14}
+  \item {BounceToWall}
+    \subitem {Cockroach}, \hyperpage{25}
+  \item {build\_basic\_tower\_icon.cpp}
+    \subitem {game}, \hyperpage{60}
+  \item {build\_machine\_gun\_tower\_icon.cpp}
+    \subitem {game}, \hyperpage{61}
+  \item {build\_shotgun\_tower\_icon.cpp}
+    \subitem {game}, \hyperpage{61}
+  \item {BuildBasicTowerIcon}, \hyperpage{15}
+    \subitem {BuildBasicTowerIcon}, \hyperpage{15}
+    \subitem {mousePressEvent}, \hyperpage{16}
+  \item {building}
+    \subitem {Game}, \hyperpage{39}
+  \item {BuildMachineGunTowerIcon}, \hyperpage{16}
+    \subitem {BuildMachineGunTowerIcon}, \hyperpage{17}
+    \subitem {mousePressEvent}, \hyperpage{17}
+  \item {BuildShotgunTowerIcon}, \hyperpage{17}
+    \subitem {BuildShotgunTowerIcon}, \hyperpage{18}
+    \subitem {mousePressEvent}, \hyperpage{18}
+  \item {Bullet}, \hyperpage{19}
+    \subitem {$\sim$Bullet}, \hyperpage{20}
+    \subitem {Bullet}, \hyperpage{19}
+    \subitem {get\_distance\_travelled}, \hyperpage{20}
+    \subitem {get\_max\_range}, \hyperpage{20}
+    \subitem {GetDamage}, \hyperpage{20}
+    \subitem {move}, \hyperpage{20}
+    \subitem {set\_distance\_travelled}, \hyperpage{21}
+  \item {bullet}
+    \subitem {cockroach.cpp}, \hyperpage{63}
+  \item {bullet.cpp}
+    \subitem {game}, \hyperpage{61}
+
+  \indexspace
+
+  \item {C}
+    \subitem {game.hpp}, \hyperpage{70}
+  \item {center}
+    \subitem {Tower}, \hyperpage{54}
+  \item {Child\_cockroach}, \hyperpage{21}
+    \subitem {Child\_cockroach}, \hyperpage{22}
+  \item {child\_cockroach.cpp}
+    \subitem {game}, \hyperpage{62}
+  \item {child\_killed}
+    \subitem {Game}, \hyperpage{39}
+  \item {child\_spawmed}
+    \subitem {Game}, \hyperpage{40}
+  \item {Cockroach}, \hyperpage{22}
+    \subitem {$\sim$Cockroach}, \hyperpage{25}
+    \subitem {assB}, \hyperpage{29}
+    \subitem {BounceToWall}, \hyperpage{25}
+    \subitem {Cockroach}, \hyperpage{24}
+    \subitem {colliding\_items}, \hyperpage{30}
+    \subitem {dest\_}, \hyperpage{30}
+    \subitem {destList\_index\_}, \hyperpage{30}
+    \subitem {dx}, \hyperpage{30}
+    \subitem {dy}, \hyperpage{30}
+    \subitem {GetDest}, \hyperpage{25}
+    \subitem {GetDestIndex}, \hyperpage{25}
+    \subitem {GetHealth}, \hyperpage{26}
+    \subitem {GetPointList}, \hyperpage{26}
+    \subitem {GetSpeed}, \hyperpage{26}
+    \subitem {GetValue}, \hyperpage{26}
+    \subitem {GotHit}, \hyperpage{27}
+    \subitem {health\_}, \hyperpage{30}
+    \subitem {IsDead}, \hyperpage{27}
+    \subitem {Move}, \hyperpage{27}
+    \subitem {operator=}, \hyperpage{28}
+    \subitem {points\_}, \hyperpage{30}
+    \subitem {PreventCollide}, \hyperpage{28}
+    \subitem {PreventCollidedToCocsh}, \hyperpage{28}
+    \subitem {PreventOutOfBoundry}, \hyperpage{28}
+    \subitem {RotateToPoint}, \hyperpage{29}
+    \subitem {speed\_}, \hyperpage{30}
+    \subitem {timer\_}, \hyperpage{31}
+    \subitem {value\_}, \hyperpage{31}
+    \subitem {variant\_}, \hyperpage{31}
+    \subitem {WalkTo}, \hyperpage{29}
+  \item {cockroach.cpp}
+    \subitem {bullet}, \hyperpage{63}
+    \subitem {game}, \hyperpage{63}
+  \item {colliding\_items}
+    \subitem {Cockroach}, \hyperpage{30}
+  \item {CreateAreaOfEffect}
+    \subitem {Tower}, \hyperpage{52}
+  \item {createEnemies}
+    \subitem {Game}, \hyperpage{34}
+  \item {CreateNewLevel}
+    \subitem {Game}, \hyperpage{34}
+  \item {CurrentBalanceText}
+    \subitem {Game}, \hyperpage{40}
+  \item {cursor}
+    \subitem {Game}, \hyperpage{40}
+
+  \indexspace
+
+  \item {D}
+    \subitem {game.hpp}, \hyperpage{70}
+  \item {Deposit}
+    \subitem {Wallet}, \hyperpage{56}
+  \item {dest\_}
+    \subitem {Cockroach}, \hyperpage{30}
+  \item {destList\_index\_}
+    \subitem {Cockroach}, \hyperpage{30}
+  \item {DistanceTo}
+    \subitem {Tower}, \hyperpage{52}
+  \item {done\_button}
+    \subitem {Game}, \hyperpage{40}
+  \item {dx}
+    \subitem {Cockroach}, \hyperpage{30}
+  \item {dy}
+    \subitem {Cockroach}, \hyperpage{30}
+
+  \indexspace
+
+  \item {E}
+    \subitem {game.hpp}, \hyperpage{70}
+
+  \indexspace
+
+  \item {Fire}
+    \subitem {MachineGunTower}, \hyperpage{45}
+    \subitem {ShotgunTower}, \hyperpage{50}
+    \subitem {Tower}, \hyperpage{53}
+
+  \indexspace
+
+  \item {G}
+    \subitem {game.hpp}, \hyperpage{70}
+  \item {Game}, \hyperpage{31}
+    \subitem {$\sim$Game}, \hyperpage{33}
+    \subitem {adult\_killed}, \hyperpage{39}
+    \subitem {adult\_spawmed}, \hyperpage{39}
+    \subitem {BalanceUpdateTimer}, \hyperpage{39}
+    \subitem {basic\_tower\_icon}, \hyperpage{39}
+    \subitem {building}, \hyperpage{39}
+    \subitem {child\_killed}, \hyperpage{39}
+    \subitem {child\_spawmed}, \hyperpage{40}
+    \subitem {createEnemies}, \hyperpage{34}
+    \subitem {CreateNewLevel}, \hyperpage{34}
+    \subitem {CurrentBalanceText}, \hyperpage{40}
+    \subitem {cursor}, \hyperpage{40}
+    \subitem {done\_button}, \hyperpage{40}
+    \subitem {Game}, \hyperpage{33}
+    \subitem {game\_over\_flag}, \hyperpage{40}
+    \subitem {GameOver}, \hyperpage{35}
+    \subitem {GameOverMsgBox}, \hyperpage{40}
+    \subitem {IsWaveComplete}, \hyperpage{35}
+    \subitem {LevelCompleteMsgBox}, \hyperpage{40}
+    \subitem {LevelTwo}, \hyperpage{35}
+    \subitem {machine\_gun\_tower\_icon}, \hyperpage{40}
+    \subitem {mother\_killed}, \hyperpage{41}
+    \subitem {mother\_spawmed}, \hyperpage{41}
+    \subitem {mouseMoveEvent}, \hyperpage{35}
+    \subitem {mousePressEvent}, \hyperpage{36}
+    \subitem {pointsToFollow}, \hyperpage{41}
+    \subitem {ResetLevel}, \hyperpage{36}
+    \subitem {scene}, \hyperpage{41}
+    \subitem {setCursor}, \hyperpage{36}
+    \subitem {shotgun\_tower\_icon}, \hyperpage{41}
+    \subitem {spawn\_interval}, \hyperpage{41}
+    \subitem {SpawnAdult}, \hyperpage{36}
+    \subitem {SpawnAdultTimer}, \hyperpage{41}
+    \subitem {SpawnChild}, \hyperpage{37}
+    \subitem {SpawnChildTimer}, \hyperpage{41}
+    \subitem {SpawnMother}, \hyperpage{37}
+    \subitem {SpawnMotherTimer}, \hyperpage{42}
+    \subitem {StartNextWave}, \hyperpage{37}
+    \subitem {StartWave}, \hyperpage{38}
+    \subitem {total\_spawned}, \hyperpage{42}
+    \subitem {UpdateBalance}, \hyperpage{38}
+    \subitem {view}, \hyperpage{42}
+    \subitem {WaitForPlayer}, \hyperpage{38}
+    \subitem {WaveCheckTimer}, \hyperpage{42}
+    \subitem {WaveComplete}, \hyperpage{38}
+    \subitem {WaveCompleteMsgBox}, \hyperpage{42}
+  \item {game}
+    \subitem {adult\_cockroach.cpp}, \hyperpage{59}
+    \subitem {basic\_tower.cpp}, \hyperpage{60}
+    \subitem {build\_basic\_tower\_icon.cpp}, \hyperpage{60}
+    \subitem {build\_machine\_gun\_tower\_icon.cpp}, \hyperpage{61}
+    \subitem {build\_shotgun\_tower\_icon.cpp}, \hyperpage{61}
+    \subitem {bullet.cpp}, \hyperpage{61}
+    \subitem {child\_cockroach.cpp}, \hyperpage{62}
+    \subitem {cockroach.cpp}, \hyperpage{63}
+    \subitem {machine\_gun\_tower.cpp}, \hyperpage{78}
+    \subitem {mainwindow.cpp}, \hyperpage{79}
+    \subitem {mother\_cockroach.cpp}, \hyperpage{80}
+    \subitem {shotgun\_tower.cpp}, \hyperpage{81}
+    \subitem {tower.cpp}, \hyperpage{82}
+  \item {game.hpp}
+    \subitem {A}, \hyperpage{69}
+    \subitem {B}, \hyperpage{69}
+    \subitem {C}, \hyperpage{70}
+    \subitem {D}, \hyperpage{70}
+    \subitem {E}, \hyperpage{70}
+    \subitem {G}, \hyperpage{70}
+    \subitem {L}, \hyperpage{70}
+    \subitem {M}, \hyperpage{70}
+    \subitem {R}, \hyperpage{70}
+    \subitem {S}, \hyperpage{70}
+    \subitem {W}, \hyperpage{71}
+    \subitem {X}, \hyperpage{71}
+  \item {game\_over\_flag}
+    \subitem {Game}, \hyperpage{40}
+  \item {GameOver}
+    \subitem {Game}, \hyperpage{35}
+  \item {GameOverMsgBox}
+    \subitem {Game}, \hyperpage{40}
+  \item {get\_distance\_travelled}
+    \subitem {Bullet}, \hyperpage{20}
+  \item {get\_max\_range}
+    \subitem {Bullet}, \hyperpage{20}
+  \item {GetBalance}
+    \subitem {Wallet}, \hyperpage{56}
+  \item {GetBarrelLenght}
+    \subitem {Tower}, \hyperpage{53}
+  \item {GetCenterPoint}
+    \subitem {Tower}, \hyperpage{53}
+  \item {GetDamage}
+    \subitem {Bullet}, \hyperpage{20}
+  \item {GetDest}
+    \subitem {Cockroach}, \hyperpage{25}
+  \item {GetDestIndex}
+    \subitem {Cockroach}, \hyperpage{25}
+  \item {GetHealth}
+    \subitem {Cockroach}, \hyperpage{26}
+  \item {GetPointList}
+    \subitem {Cockroach}, \hyperpage{26}
+  \item {GetSpeed}
+    \subitem {Cockroach}, \hyperpage{26}
+  \item {GetValue}
+    \subitem {Cockroach}, \hyperpage{26}
+  \item {GotHit}
+    \subitem {Cockroach}, \hyperpage{27}
+
+  \indexspace
+
+  \item {has\_target}
+    \subitem {Tower}, \hyperpage{55}
+  \item {health\_}
+    \subitem {Cockroach}, \hyperpage{30}
+
+  \indexspace
+
+  \item {IsDead}
+    \subitem {Cockroach}, \hyperpage{27}
+  \item {IsWaveComplete}
+    \subitem {Game}, \hyperpage{35}
+  \item {ItemNotPlacebleTile}, \hyperpage{42}
+    \subitem {$\sim$ItemNotPlacebleTile}, \hyperpage{43}
+    \subitem {ItemNotPlacebleTile}, \hyperpage{43}
+  \item {ItemPlacebleTile}, \hyperpage{43}
+    \subitem {$\sim$ItemPlacebleTile}, \hyperpage{44}
+    \subitem {ItemPlacebleTile}, \hyperpage{44}
+
+  \indexspace
+
+  \item {L}
+    \subitem {game.hpp}, \hyperpage{70}
+  \item {LevelCompleteMsgBox}
+    \subitem {Game}, \hyperpage{40}
+  \item {LevelTwo}
+    \subitem {Game}, \hyperpage{35}
+
+  \indexspace
+
+  \item {M}
+    \subitem {game.hpp}, \hyperpage{70}
+  \item {machine\_gun\_tower.cpp}
+    \subitem {game}, \hyperpage{78}
+  \item {machine\_gun\_tower\_icon}
+    \subitem {Game}, \hyperpage{40}
+  \item {MachineGunTower}, \hyperpage{44}
+    \subitem {AcquireTarget}, \hyperpage{45}
+    \subitem {Fire}, \hyperpage{45}
+    \subitem {MachineGunTower}, \hyperpage{45}
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{79}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{79}
+  \item {MainWindow}, \hyperpage{46}
+    \subitem {$\sim$MainWindow}, \hyperpage{46}
+    \subitem {MainWindow}, \hyperpage{46}
+    \subitem {start\_on\_click}, \hyperpage{47}
+  \item {mainwindow.cpp}
+    \subitem {game}, \hyperpage{79}
+  \item {Mother\_cockroach}, \hyperpage{47}
+    \subitem {Mother\_cockroach}, \hyperpage{47}
+  \item {mother\_cockroach.cpp}
+    \subitem {game}, \hyperpage{80}
+  \item {mother\_killed}
+    \subitem {Game}, \hyperpage{41}
+  \item {mother\_spawmed}
+    \subitem {Game}, \hyperpage{41}
+  \item {mouseMoveEvent}
+    \subitem {Game}, \hyperpage{35}
+  \item {mousePressEvent}
+    \subitem {BuildBasicTowerIcon}, \hyperpage{16}
+    \subitem {BuildMachineGunTowerIcon}, \hyperpage{17}
+    \subitem {BuildShotgunTowerIcon}, \hyperpage{18}
+    \subitem {Game}, \hyperpage{36}
+  \item {Move}
+    \subitem {Cockroach}, \hyperpage{27}
+  \item {move}
+    \subitem {Bullet}, \hyperpage{20}
+
+  \indexspace
+
+  \item {operator=}
+    \subitem {Cockroach}, \hyperpage{28}
+
+  \indexspace
+
+  \item {Pellet}, \hyperpage{48}
+    \subitem {Pellet}, \hyperpage{49}
+  \item {points\_}
+    \subitem {Cockroach}, \hyperpage{30}
+  \item {pointsToFollow}
+    \subitem {Game}, \hyperpage{41}
+  \item {PreventCollide}
+    \subitem {Cockroach}, \hyperpage{28}
+  \item {PreventCollidedToCocsh}
+    \subitem {Cockroach}, \hyperpage{28}
+  \item {PreventOutOfBoundry}
+    \subitem {Cockroach}, \hyperpage{28}
+
+  \indexspace
+
+  \item {R}
+    \subitem {game.hpp}, \hyperpage{70}
+  \item {ResetLevel}
+    \subitem {Game}, \hyperpage{36}
+  \item {RotateToPoint}
+    \subitem {Cockroach}, \hyperpage{29}
+  \item {RotateTowardsEnemy}
+    \subitem {Tower}, \hyperpage{53}
+
+  \indexspace
+
+  \item {S}
+    \subitem {game.hpp}, \hyperpage{70}
+  \item {scene}
+    \subitem {Game}, \hyperpage{41}
+  \item {set\_distance\_travelled}
+    \subitem {Bullet}, \hyperpage{21}
+  \item {SetBarrelLenght}
+    \subitem {Tower}, \hyperpage{54}
+  \item {SetCenterPoint}
+    \subitem {Tower}, \hyperpage{54}
+  \item {setCursor}
+    \subitem {Game}, \hyperpage{36}
+  \item {SetNewBalance}
+    \subitem {Wallet}, \hyperpage{56}
+  \item {shotgun\_tower.cpp}
+    \subitem {game}, \hyperpage{81}
+  \item {shotgun\_tower\_icon}
+    \subitem {Game}, \hyperpage{41}
+  \item {ShotgunTower}, \hyperpage{49}
+    \subitem {AcquireTarget}, \hyperpage{50}
+    \subitem {Fire}, \hyperpage{50}
+    \subitem {ShotgunTower}, \hyperpage{50}
+  \item {spawn\_interval}
+    \subitem {Game}, \hyperpage{41}
+  \item {SpawnAdult}
+    \subitem {Game}, \hyperpage{36}
+  \item {SpawnAdultTimer}
+    \subitem {Game}, \hyperpage{41}
+  \item {SpawnChild}
+    \subitem {Game}, \hyperpage{37}
+  \item {SpawnChildTimer}
+    \subitem {Game}, \hyperpage{41}
+  \item {SpawnMother}
+    \subitem {Game}, \hyperpage{37}
+  \item {SpawnMotherTimer}
+    \subitem {Game}, \hyperpage{42}
+  \item {speed\_}
+    \subitem {Cockroach}, \hyperpage{30}
+  \item {src/adult\_cockroach.cpp}, \hyperpage{59}
+  \item {src/basic\_tower.cpp}, \hyperpage{59}
+  \item {src/build\_basic\_tower\_icon.cpp}, \hyperpage{60}
+  \item {src/build\_machine\_gun\_tower\_icon.cpp}, \hyperpage{60}
+  \item {src/build\_shotgun\_tower\_icon.cpp}, \hyperpage{61}
+  \item {src/bullet.cpp}, \hyperpage{61}
+  \item {src/child\_cockroach.cpp}, \hyperpage{62}
+  \item {src/cockroach.cpp}, \hyperpage{63}
+  \item {src/game.cpp}, \hyperpage{64}
+  \item {src/include/adult\_cockroach.h}, \hyperpage{64}
+  \item {src/include/basic\_tower.h}, \hyperpage{64, 65}
+  \item {src/include/build\_basic\_tower\_icon.hpp}, \hyperpage{65}
+  \item {src/include/build\_machine\_gun\_tower\_icon.hpp}, 
+		\hyperpage{65, 66}
+  \item {src/include/build\_shotgun\_tower\_icon.hpp}, \hyperpage{66}
+  \item {src/include/bullet.h}, \hyperpage{66, 67}
+  \item {src/include/child\_cockroach.h}, \hyperpage{67}
+  \item {src/include/cockroach.h}, \hyperpage{68}
+  \item {src/include/game.hpp}, \hyperpage{69}, \hyperpage{71}
+  \item {src/include/item\_not\_placeble\_tile.h}, \hyperpage{72, 73}
+  \item {src/include/item\_placeble\_tile.h}, \hyperpage{73}
+  \item {src/include/machine\_gun\_tower.h}, \hyperpage{73, 74}
+  \item {src/include/mainwindow.h}, \hyperpage{74}
+  \item {src/include/mother\_cockroach.h}, \hyperpage{75}
+  \item {src/include/pellet.h}, \hyperpage{75}
+  \item {src/include/shotgun\_tower.h}, \hyperpage{76}
+  \item {src/include/tower.h}, \hyperpage{76}
+  \item {src/include/wallet.hpp}, \hyperpage{77}
+  \item {src/item\_not\_placeble\_tile.cpp}, \hyperpage{77}
+  \item {src/item\_placeble\_tile.cpp}, \hyperpage{78}
+  \item {src/machine\_gun\_tower.cpp}, \hyperpage{78}
+  \item {src/main.cpp}, \hyperpage{78}
+  \item {src/mainwindow.cpp}, \hyperpage{79}
+  \item {src/mother\_cockroach.cpp}, \hyperpage{80}
+  \item {src/pellet.cpp}, \hyperpage{80}
+  \item {src/readme.md}, \hyperpage{81}
+  \item {src/shotgun\_tower.cpp}, \hyperpage{81}
+  \item {src/tower.cpp}, \hyperpage{81}
+  \item {src/wallet.cpp}, \hyperpage{82}
+  \item {start\_on\_click}
+    \subitem {MainWindow}, \hyperpage{47}
+  \item {StartNextWave}
+    \subitem {Game}, \hyperpage{37}
+  \item {StartWave}
+    \subitem {Game}, \hyperpage{38}
+
+  \indexspace
+
+  \item {target}
+    \subitem {Tower}, \hyperpage{55}
+  \item {timer\_}
+    \subitem {Cockroach}, \hyperpage{31}
+  \item {total\_spawned}
+    \subitem {Game}, \hyperpage{42}
+  \item {Tower}, \hyperpage{51}
+    \subitem {AcquireTarget}, \hyperpage{52}
+    \subitem {area\_of\_effect}, \hyperpage{54}
+    \subitem {barrel\_lenght}, \hyperpage{54}
+    \subitem {center}, \hyperpage{54}
+    \subitem {CreateAreaOfEffect}, \hyperpage{52}
+    \subitem {DistanceTo}, \hyperpage{52}
+    \subitem {Fire}, \hyperpage{53}
+    \subitem {GetBarrelLenght}, \hyperpage{53}
+    \subitem {GetCenterPoint}, \hyperpage{53}
+    \subitem {has\_target}, \hyperpage{55}
+    \subitem {RotateTowardsEnemy}, \hyperpage{53}
+    \subitem {SetBarrelLenght}, \hyperpage{54}
+    \subitem {SetCenterPoint}, \hyperpage{54}
+    \subitem {target}, \hyperpage{55}
+    \subitem {Tower}, \hyperpage{52}
+  \item {tower.cpp}
+    \subitem {game}, \hyperpage{82}
+
+  \indexspace
+
+  \item {Ui}, \hyperpage{11}
+  \item {UpdateBalance}
+    \subitem {Game}, \hyperpage{38}
+
+  \indexspace
+
+  \item {value\_}
+    \subitem {Cockroach}, \hyperpage{31}
+  \item {variant\_}
+    \subitem {Cockroach}, \hyperpage{31}
+  \item {view}
+    \subitem {Game}, \hyperpage{42}
+
+  \indexspace
+
+  \item {W}
+    \subitem {game.hpp}, \hyperpage{71}
+  \item {WaitForPlayer}
+    \subitem {Game}, \hyperpage{38}
+  \item {WalkTo}
+    \subitem {Cockroach}, \hyperpage{29}
+  \item {Wallet}, \hyperpage{55}
+    \subitem {Deposit}, \hyperpage{56}
+    \subitem {GetBalance}, \hyperpage{56}
+    \subitem {SetNewBalance}, \hyperpage{56}
+    \subitem {Wallet}, \hyperpage{55}
+    \subitem {Withdraw}, \hyperpage{57}
+  \item {WaveCheckTimer}
+    \subitem {Game}, \hyperpage{42}
+  \item {WaveComplete}
+    \subitem {Game}, \hyperpage{38}
+  \item {WaveCompleteMsgBox}
+    \subitem {Game}, \hyperpage{42}
+  \item {Withdraw}
+    \subitem {Wallet}, \hyperpage{57}
+
+  \indexspace
+
+  \item {X}
+    \subitem {game.hpp}, \hyperpage{71}
+
+\end{theindex}

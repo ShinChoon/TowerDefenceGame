@@ -1,0 +1,239 @@
+\hypertarget{class_tower}{}\doxysection{Tower Class Reference}
+\label{class_tower}\index{Tower@{Tower}}
+
+
+{\ttfamily \#include $<$tower.\+h$>$}
+
+Inheritance diagram for Tower\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_tower}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_tower_a5f4163ddfe007bd07ae7ed21c6992d29}{Acquire\+Target}} ()
+\begin{DoxyCompactList}\small\item\em Tower\+::acquire\+\_\+target Checks if enemies are in the area\+\_\+of\+\_\+effect, sets target and calls method fire() A Virtual method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tower_aa3ff2c932ed113a80a122dbe2e3e0176}{Tower}} (QGraphics\+Item $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Constructor \mbox{\hyperlink{class_tower}{Tower}} An abstract class that inherits from QGraphics\+Pixmap\+Item and QObject. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_tower_a56fc2c61e29b0d0aa49408b898430061}{Distance\+To}} (QGraphics\+Item $\ast$item)
+\begin{DoxyCompactList}\small\item\em Tower\+::distance\+To Calculates distance from tower to an item. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_tower_aea8fb107e04ebae41d59f69b23cb0bbf}{Fire}} ()
+\begin{DoxyCompactList}\small\item\em Tower\+::fire Creates a bullet that will travel towards the target. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tower_a0fec2e591166f67a775ed9b0c90b6d61}{Rotate\+Towards\+Enemy}} (int angle)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_tower_a0fec2e591166f67a775ed9b0c90b6d61}{Tower\+::\+Rotate\+Towards\+Enemy}} Rotates the tower. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tower_a7d299791d372249be9bd1252a33d9346}{Set\+Center\+Point}} (QPointF center\+\_\+point)
+\begin{DoxyCompactList}\small\item\em Tower\+::set\+Center\+Point Set function for towers center point. \end{DoxyCompactList}\item 
+QPointF \mbox{\hyperlink{class_tower_a7e3c7ca24c05647f15ff28d5e6ddca7b}{Get\+Center\+Point}} ()
+\begin{DoxyCompactList}\small\item\em Tower\+::get\+Center\+Point Get function for towers center point. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tower_a36333fdb79f4e537c717f2346b54b307}{Set\+Barrel\+Lenght}} (int lenght)
+\begin{DoxyCompactList}\small\item\em Tower\+::set\+Barrel\+Lenght Sets the value holding lenght of the barrel of the tower. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_tower_aa124b0fda860a2f59677f34b4e3f0f4e}{Get\+Barrel\+Lenght}} ()
+\begin{DoxyCompactList}\small\item\em Tower\+::get\+Barrel\+Lenght Gets the value holding lenght of the barrel of the tower. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tower_a4bd724b3550e1df36fbfebce1747f7a0}{Create\+Area\+Of\+Effect}} (int scale\+\_\+factor)
+\begin{DoxyCompactList}\small\item\em Tower\+::create\+Area\+Of\+Effect Creates the Polygon\+Item area\+\_\+of\+\_\+effect from points and scales them accordingly. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QGraphics\+Polygon\+Item $\ast$ \mbox{\hyperlink{class_tower_afdaab3319ba053398e0473d296191eea}{area\+\_\+of\+\_\+effect}}
+\item 
+QPointF \mbox{\hyperlink{class_tower_a7d669babe059b7e584c0afe77e281d8a}{target}}
+\item 
+bool \mbox{\hyperlink{class_tower_a568b9b12bc604fb245a79476b71d6557}{has\+\_\+target}}
+\item 
+QPointF \mbox{\hyperlink{class_tower_a2f56df77d34f92f23876441c40c647c9}{center}}
+\item 
+int \mbox{\hyperlink{class_tower_ad1f7aaff6d292d35b7c0106de0c6266e}{barrel\+\_\+lenght}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_tower_aa3ff2c932ed113a80a122dbe2e3e0176}\label{class_tower_aa3ff2c932ed113a80a122dbe2e3e0176}} 
+\index{Tower@{Tower}!Tower@{Tower}}
+\index{Tower@{Tower}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{Tower()}{Tower()}}
+{\footnotesize\ttfamily Tower\+::\+Tower (\begin{DoxyParamCaption}\item[{QGraphics\+Item $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Constructor \mbox{\hyperlink{class_tower}{Tower}} An abstract class that inherits from QGraphics\+Pixmap\+Item and QObject. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & An optional parameter \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_tower_a5f4163ddfe007bd07ae7ed21c6992d29}\label{class_tower_a5f4163ddfe007bd07ae7ed21c6992d29}} 
+\index{Tower@{Tower}!AcquireTarget@{AcquireTarget}}
+\index{AcquireTarget@{AcquireTarget}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{AcquireTarget}{AcquireTarget}}
+{\footnotesize\ttfamily void Tower\+::\+Acquire\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+
+
+Tower\+::acquire\+\_\+target Checks if enemies are in the area\+\_\+of\+\_\+effect, sets target and calls method fire() A Virtual method. 
+
+\mbox{\Hypertarget{class_tower_a4bd724b3550e1df36fbfebce1747f7a0}\label{class_tower_a4bd724b3550e1df36fbfebce1747f7a0}} 
+\index{Tower@{Tower}!CreateAreaOfEffect@{CreateAreaOfEffect}}
+\index{CreateAreaOfEffect@{CreateAreaOfEffect}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{CreateAreaOfEffect()}{CreateAreaOfEffect()}}
+{\footnotesize\ttfamily void Tower\+::\+Create\+Area\+Of\+Effect (\begin{DoxyParamCaption}\item[{int}]{scale\+\_\+factor }\end{DoxyParamCaption})}
+
+
+
+Tower\+::create\+Area\+Of\+Effect Creates the Polygon\+Item area\+\_\+of\+\_\+effect from points and scales them accordingly. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scale\+\_\+factor} & The scale\+\_\+factor defines the size of the polygon \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tower_a56fc2c61e29b0d0aa49408b898430061}\label{class_tower_a56fc2c61e29b0d0aa49408b898430061}} 
+\index{Tower@{Tower}!DistanceTo@{DistanceTo}}
+\index{DistanceTo@{DistanceTo}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{DistanceTo()}{DistanceTo()}}
+{\footnotesize\ttfamily double Tower\+::\+Distance\+To (\begin{DoxyParamCaption}\item[{QGraphics\+Item $\ast$}]{item }\end{DoxyParamCaption})}
+
+
+
+Tower\+::distance\+To Calculates distance from tower to an item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tower_aea8fb107e04ebae41d59f69b23cb0bbf}\label{class_tower_aea8fb107e04ebae41d59f69b23cb0bbf}} 
+\index{Tower@{Tower}!Fire@{Fire}}
+\index{Fire@{Fire}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{Fire()}{Fire()}}
+{\footnotesize\ttfamily void Tower\+::\+Fire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Tower\+::fire Creates a bullet that will travel towards the target. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_machine_gun_tower_a6155327d91b3f9d0b9398747f9477560}{Machine\+Gun\+Tower}}, and \mbox{\hyperlink{class_shotgun_tower_a08e162d43c3b174744476da3d1be19b4}{Shotgun\+Tower}}.
+
+\mbox{\Hypertarget{class_tower_aa124b0fda860a2f59677f34b4e3f0f4e}\label{class_tower_aa124b0fda860a2f59677f34b4e3f0f4e}} 
+\index{Tower@{Tower}!GetBarrelLenght@{GetBarrelLenght}}
+\index{GetBarrelLenght@{GetBarrelLenght}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{GetBarrelLenght()}{GetBarrelLenght()}}
+{\footnotesize\ttfamily int Tower\+::\+Get\+Barrel\+Lenght (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tower\+::get\+Barrel\+Lenght Gets the value holding lenght of the barrel of the tower. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tower_a7e3c7ca24c05647f15ff28d5e6ddca7b}\label{class_tower_a7e3c7ca24c05647f15ff28d5e6ddca7b}} 
+\index{Tower@{Tower}!GetCenterPoint@{GetCenterPoint}}
+\index{GetCenterPoint@{GetCenterPoint}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{GetCenterPoint()}{GetCenterPoint()}}
+{\footnotesize\ttfamily QPointF Tower\+::\+Get\+Center\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tower\+::get\+Center\+Point Get function for towers center point. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tower_a0fec2e591166f67a775ed9b0c90b6d61}\label{class_tower_a0fec2e591166f67a775ed9b0c90b6d61}} 
+\index{Tower@{Tower}!RotateTowardsEnemy@{RotateTowardsEnemy}}
+\index{RotateTowardsEnemy@{RotateTowardsEnemy}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{RotateTowardsEnemy()}{RotateTowardsEnemy()}}
+{\footnotesize\ttfamily void Tower\+::\+Rotate\+Towards\+Enemy (\begin{DoxyParamCaption}\item[{int}]{angle }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_tower_a0fec2e591166f67a775ed9b0c90b6d61}{Tower\+::\+Rotate\+Towards\+Enemy}} Rotates the tower. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & The angle of rotation \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tower_a36333fdb79f4e537c717f2346b54b307}\label{class_tower_a36333fdb79f4e537c717f2346b54b307}} 
+\index{Tower@{Tower}!SetBarrelLenght@{SetBarrelLenght}}
+\index{SetBarrelLenght@{SetBarrelLenght}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{SetBarrelLenght()}{SetBarrelLenght()}}
+{\footnotesize\ttfamily void Tower\+::\+Set\+Barrel\+Lenght (\begin{DoxyParamCaption}\item[{int}]{lenght }\end{DoxyParamCaption})}
+
+
+
+Tower\+::set\+Barrel\+Lenght Sets the value holding lenght of the barrel of the tower. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lenght} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tower_a7d299791d372249be9bd1252a33d9346}\label{class_tower_a7d299791d372249be9bd1252a33d9346}} 
+\index{Tower@{Tower}!SetCenterPoint@{SetCenterPoint}}
+\index{SetCenterPoint@{SetCenterPoint}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{SetCenterPoint()}{SetCenterPoint()}}
+{\footnotesize\ttfamily void Tower\+::\+Set\+Center\+Point (\begin{DoxyParamCaption}\item[{QPointF}]{center\+\_\+point }\end{DoxyParamCaption})}
+
+
+
+Tower\+::set\+Center\+Point Set function for towers center point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em center\+\_\+point} & The center point of the tower \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_tower_afdaab3319ba053398e0473d296191eea}\label{class_tower_afdaab3319ba053398e0473d296191eea}} 
+\index{Tower@{Tower}!area\_of\_effect@{area\_of\_effect}}
+\index{area\_of\_effect@{area\_of\_effect}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{area\_of\_effect}{area\_of\_effect}}
+{\footnotesize\ttfamily QGraphics\+Polygon\+Item$\ast$ Tower\+::area\+\_\+of\+\_\+effect\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_tower_ad1f7aaff6d292d35b7c0106de0c6266e}\label{class_tower_ad1f7aaff6d292d35b7c0106de0c6266e}} 
+\index{Tower@{Tower}!barrel\_lenght@{barrel\_lenght}}
+\index{barrel\_lenght@{barrel\_lenght}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{barrel\_lenght}{barrel\_lenght}}
+{\footnotesize\ttfamily int Tower\+::barrel\+\_\+lenght\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_tower_a2f56df77d34f92f23876441c40c647c9}\label{class_tower_a2f56df77d34f92f23876441c40c647c9}} 
+\index{Tower@{Tower}!center@{center}}
+\index{center@{center}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{center}{center}}
+{\footnotesize\ttfamily QPointF Tower\+::center\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_tower_a568b9b12bc604fb245a79476b71d6557}\label{class_tower_a568b9b12bc604fb245a79476b71d6557}} 
+\index{Tower@{Tower}!has\_target@{has\_target}}
+\index{has\_target@{has\_target}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{has\_target}{has\_target}}
+{\footnotesize\ttfamily bool Tower\+::has\+\_\+target\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_tower_a7d669babe059b7e584c0afe77e281d8a}\label{class_tower_a7d669babe059b7e584c0afe77e281d8a}} 
+\index{Tower@{Tower}!target@{target}}
+\index{target@{target}!Tower@{Tower}}
+\doxysubsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily QPointF Tower\+::target\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/include/\mbox{\hyperlink{tower_8h}{tower.\+h}}\item 
+src/\mbox{\hyperlink{tower_8cpp}{tower.\+cpp}}\end{DoxyCompactItemize}

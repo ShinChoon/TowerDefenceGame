@@ -1,0 +1,33 @@
+\hypertarget{bullet_8h_source}{}\doxysection{bullet.\+h}
+\label{bullet_8h_source}\index{src/include/bullet.h@{src/include/bullet.h}}
+\mbox{\hyperlink{bullet_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef BULLET\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define BULLET\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QGraphicsPixmapItem>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QObject>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <QGraphicsItem>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QGraphicsRectItem>}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_bullet}{Bullet}}: \textcolor{keyword}{public} QObject, \textcolor{keyword}{public} QGraphicsPixmapItem\{}
+\DoxyCodeLine{10     Q\_OBJECT}
+\DoxyCodeLine{11 \textcolor{keyword}{public}:}
+\DoxyCodeLine{12     \mbox{\hyperlink{class_bullet_a59dd6b80f2fd4d3e749b2617911b4805}{Bullet}}(\textcolor{keywordtype}{int} damage, \textcolor{keywordtype}{double} range);}
+\DoxyCodeLine{13     \mbox{\hyperlink{class_bullet_aaeb5cb41d7db89f49007b08b41f1bfcf}{\string~Bullet}}();}
+\DoxyCodeLine{14     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bullet_a376bf7831a4af887dd46e0e9e48b1585}{GetDamage}}()\{\textcolor{keywordflow}{return} damage\_;\}}
+\DoxyCodeLine{15 \textcolor{keyword}{public} slots:}
+\DoxyCodeLine{16     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_a6140db968c42c05e829e142f74f20b16}{move}}();}
+\DoxyCodeLine{17     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_bullet_a88fa94a3171efe7bd9da51d3e9f97ce6}{get\_max\_range}}(); \textcolor{comment}{// rest could be in public}}
+\DoxyCodeLine{18     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_bullet_a5a5d7a4206cbfeb7e99e32d34cdb6420}{get\_distance\_travelled}}();}
+\DoxyCodeLine{19     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_afadaa500df4c036398a7fc03874feb33}{set\_distance\_travelled}}(\textcolor{keywordtype}{double} distance);}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{keyword}{private}:}
+\DoxyCodeLine{22     \textcolor{keywordtype}{double} max\_range;}
+\DoxyCodeLine{23     \textcolor{keywordtype}{double} distance\_travelled;}
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} damage\_;}
+\DoxyCodeLine{25 \};}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// BULLET\_H}}
+
+\end{DoxyCode}

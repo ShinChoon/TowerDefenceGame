@@ -1,0 +1,125 @@
+\hypertarget{game_8hpp}{}\doxysection{src/include/game.hpp File Reference}
+\label{game_8hpp}\index{src/include/game.hpp@{src/include/game.hpp}}
+{\ttfamily \#include $<$QGraphics\+View$>$}\newline
+{\ttfamily \#include $<$QGraphics\+Rect\+Item$>$}\newline
+{\ttfamily \#include $<$QGraphics\+Pixmap\+Item$>$}\newline
+{\ttfamily \#include $<$QColor$>$}\newline
+{\ttfamily \#include $<$QObject$>$}\newline
+{\ttfamily \#include $<$QTimer$>$}\newline
+{\ttfamily \#include $<$QPush\+Button$>$}\newline
+{\ttfamily \#include $<$QMouse\+Event$>$}\newline
+{\ttfamily \#include $<$QDebug$>$}\newline
+{\ttfamily \#include $<$QMessage\+Box$>$}\newline
+{\ttfamily \#include $<$QGraphics\+Text\+Item$>$}\newline
+{\ttfamily \#include \char`\"{}tower.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}wallet.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}build\+\_\+basic\+\_\+tower\+\_\+icon.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}build\+\_\+machine\+\_\+gun\+\_\+tower\+\_\+icon.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}build\+\_\+shotgun\+\_\+tower\+\_\+icon.\+hpp\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_game}{Game}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{game_8hpp_aed9ea78689ecce0b7264c02c7f8a9a54}{G}}~1  /$\ast$$\ast$ Ground tile$\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_a5c71a5e59a53413cd6c270266d63b031}{R}}~2  /$\ast$$\ast$ Road tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_a955f504eccf76b4eb2489c0adab03121}{A}}~3  /$\ast$$\ast$ Shop tile$\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_a111da81ae5883147168bbb8366377b10}{B}}~4  /$\ast$$\ast$ Basic tower tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_a52037c938e3c1b126c6277da5ca689d0}{M}}~5  /$\ast$$\ast$ Machine gun tower tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_af933676109efed7ab34cea71d748a517}{S}}~6  /$\ast$$\ast$ Machine gun tower tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_a07484107e6d9fdf38b53edf631d6511d}{E}}~7  /$\ast$$\ast$ Elon icon tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_a649b8f01fd6c0f47ff3cbddaeba63bfb}{W}}~8  /$\ast$$\ast$ \mbox{\hyperlink{class_wallet}{Wallet}} icon tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_af316c33cc298530f245e8b55330e86b5}{D}}~9  /$\ast$$\ast$ Done button tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_a207fd5507206d307cd63f95374fcd00d}{X}}~10 /$\ast$$\ast$ Exit tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_aa73214aa5f2f94f63d90bb4e3d99fe53}{L}}~11 /$\ast$$\ast$ Currnent Level info tile $\ast$/
+\item 
+\#define \mbox{\hyperlink{game_8hpp_ac4cf4b2ab929bd23951a8676eeac086b}{C}}~12 /$\ast$$\ast$ Current wave info tile $\ast$/
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{game_8hpp_a955f504eccf76b4eb2489c0adab03121}\label{game_8hpp_a955f504eccf76b4eb2489c0adab03121}} 
+\index{game.hpp@{game.hpp}!A@{A}}
+\index{A@{A}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{A}{A}}
+{\footnotesize\ttfamily \#define A~3  /$\ast$$\ast$ Shop tile$\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_a111da81ae5883147168bbb8366377b10}\label{game_8hpp_a111da81ae5883147168bbb8366377b10}} 
+\index{game.hpp@{game.hpp}!B@{B}}
+\index{B@{B}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{B}{B}}
+{\footnotesize\ttfamily \#define B~4  /$\ast$$\ast$ Basic tower tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_ac4cf4b2ab929bd23951a8676eeac086b}\label{game_8hpp_ac4cf4b2ab929bd23951a8676eeac086b}} 
+\index{game.hpp@{game.hpp}!C@{C}}
+\index{C@{C}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{C}{C}}
+{\footnotesize\ttfamily \#define C~12 /$\ast$$\ast$ Current wave info tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_af316c33cc298530f245e8b55330e86b5}\label{game_8hpp_af316c33cc298530f245e8b55330e86b5}} 
+\index{game.hpp@{game.hpp}!D@{D}}
+\index{D@{D}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{D}{D}}
+{\footnotesize\ttfamily \#define D~9  /$\ast$$\ast$ Done button tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_a07484107e6d9fdf38b53edf631d6511d}\label{game_8hpp_a07484107e6d9fdf38b53edf631d6511d}} 
+\index{game.hpp@{game.hpp}!E@{E}}
+\index{E@{E}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{E}{E}}
+{\footnotesize\ttfamily \#define E~7  /$\ast$$\ast$ Elon icon tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_aed9ea78689ecce0b7264c02c7f8a9a54}\label{game_8hpp_aed9ea78689ecce0b7264c02c7f8a9a54}} 
+\index{game.hpp@{game.hpp}!G@{G}}
+\index{G@{G}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{G}{G}}
+{\footnotesize\ttfamily \#define G~1  /$\ast$$\ast$ Ground tile$\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_aa73214aa5f2f94f63d90bb4e3d99fe53}\label{game_8hpp_aa73214aa5f2f94f63d90bb4e3d99fe53}} 
+\index{game.hpp@{game.hpp}!L@{L}}
+\index{L@{L}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{L}{L}}
+{\footnotesize\ttfamily \#define L~11 /$\ast$$\ast$ Currnent Level info tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_a52037c938e3c1b126c6277da5ca689d0}\label{game_8hpp_a52037c938e3c1b126c6277da5ca689d0}} 
+\index{game.hpp@{game.hpp}!M@{M}}
+\index{M@{M}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{M}{M}}
+{\footnotesize\ttfamily \#define M~5  /$\ast$$\ast$ Machine gun tower tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_a5c71a5e59a53413cd6c270266d63b031}\label{game_8hpp_a5c71a5e59a53413cd6c270266d63b031}} 
+\index{game.hpp@{game.hpp}!R@{R}}
+\index{R@{R}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{R}{R}}
+{\footnotesize\ttfamily \#define R~2  /$\ast$$\ast$ Road tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_af933676109efed7ab34cea71d748a517}\label{game_8hpp_af933676109efed7ab34cea71d748a517}} 
+\index{game.hpp@{game.hpp}!S@{S}}
+\index{S@{S}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{S}{S}}
+{\footnotesize\ttfamily \#define S~6  /$\ast$$\ast$ Machine gun tower tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_a649b8f01fd6c0f47ff3cbddaeba63bfb}\label{game_8hpp_a649b8f01fd6c0f47ff3cbddaeba63bfb}} 
+\index{game.hpp@{game.hpp}!W@{W}}
+\index{W@{W}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{W}{W}}
+{\footnotesize\ttfamily \#define W~8  /$\ast$$\ast$ \mbox{\hyperlink{class_wallet}{Wallet}} icon tile $\ast$/}
+
+\mbox{\Hypertarget{game_8hpp_a207fd5507206d307cd63f95374fcd00d}\label{game_8hpp_a207fd5507206d307cd63f95374fcd00d}} 
+\index{game.hpp@{game.hpp}!X@{X}}
+\index{X@{X}!game.hpp@{game.hpp}}
+\doxysubsubsection{\texorpdfstring{X}{X}}
+{\footnotesize\ttfamily \#define X~10 /$\ast$$\ast$ Exit tile $\ast$/}
+

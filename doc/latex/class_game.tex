@@ -1,0 +1,582 @@
+\hypertarget{class_game}{}\doxysection{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+
+
+{\ttfamily \#include $<$game.\+hpp$>$}
+
+Inheritance diagram for Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_a24977814cf4e883e0bbcefdf576ff7aa}{Spawn\+Child}} ()
+\begin{DoxyCompactList}\small\item\em Slot for spawning child cockroaches. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a43fd0a3e3c90eec156ac6163865ab12e}{Spawn\+Adult}} ()
+\begin{DoxyCompactList}\small\item\em Slot for spawning adult cockroaches. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a547f319b93a0424ce9027fbeaead1f44}{Spawn\+Mother}} ()
+\begin{DoxyCompactList}\small\item\em Slot for spawning mother cockroaches. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a5733ef6f55dbeeec4a608c64e67c559e}{Start\+Wave}} ()
+\begin{DoxyCompactList}\small\item\em Slot starting the wave and creating the enemies. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a2698f9a35f5a6ffe6d98854a532c477b}{Is\+Wave\+Complete}} ()
+\begin{DoxyCompactList}\small\item\em Slot for checking if the current wave is complete. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ae838c3ee7f753c4eecd54c956a1789ae}{Wave\+Complete}} ()
+\begin{DoxyCompactList}\small\item\em Slot for handling when wave is complete. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a851d9367fddbdbc080841ee2e7011e2e}{Wait\+For\+Player}} ()
+\begin{DoxyCompactList}\small\item\em Slot for Waiting for the player to start the wave again. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ace85e926f2bf391130fdd1298122ef1f}{Reset\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Waiting for player ot start the wave again. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_aa33783d0bfdf55056ddf27b045aa1cbf}{Create\+New\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Create map layout based on the current level. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a503da4f858d6e7655a3b9bd4687b53cb}{Update\+Balance}} ()
+\begin{DoxyCompactList}\small\item\em Slot updating player balance in game view. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_a34c71c3369c9b26b9d2cdb61238a26a8}{Start\+Next\+Wave}} (void)
+\item 
+void \mbox{\hyperlink{class_game_ac00297e3e4871067851244bd3b165b2c}{Game\+Over}} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_af327fe2a81c2f4a265d378e20b26b4ee}{Game}} (int tile\+\_\+width, int tile\+\_\+height, int player\+\_\+balance)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_game}{Game}}\+:\+: \mbox{\hyperlink{class_game}{Game}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_ae3d112ca6e0e55150d2fdbc704474530}{$\sim$\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_game}{Game}}\+:\+: \mbox{\hyperlink{class_game}{Game}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a80c4a96df06cfc1aedc984c1a6cd25e8}{create\+Enemies}} (int child\+\_\+ammount, int adult\+\_\+ammount, int mother\+\_\+ammount, int interval)
+\begin{DoxyCompactList}\small\item\em Create enemies and set their spawn time. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a7272e282812b8af0be83044db196dc6c}{set\+Cursor}} (QString filename)
+\begin{DoxyCompactList}\small\item\em Change the cursor to the picture given as parameter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ad761e49ff42758930e76b477d08ba068}{mouse\+Move\+Event}} (QMouse\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Cursor follows the mouse. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a704ba119948eebd1b6dfc547de967796}{mouse\+Press\+Event}} (QMouse\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Tracks the items pressed by the mouse. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a7a3319aee646037d616114fe76e23073}{Level\+Two}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QGraphics\+Scene $\ast$ \mbox{\hyperlink{class_game_a8119e3b9a632906c6808fa294b46a92a}{scene}}
+\item 
+QGraphics\+View $\ast$ \mbox{\hyperlink{class_game_af336c3f6691b0689a529bba908db4b04}{view}}
+\item 
+QGraphics\+Pixmap\+Item $\ast$ \mbox{\hyperlink{class_game_ac8bde3bd16f503846f66bbb866c3b7b9}{cursor}}
+\item 
+\mbox{\hyperlink{class_tower}{Tower}} $\ast$ \mbox{\hyperlink{class_game_a5917b4e021a93be7666ebc2ef4529401}{building}}
+\item 
+QTimer $\ast$ \mbox{\hyperlink{class_game_a6fc89dc175ed64c64f03d4b26b95d110}{Spawn\+Child\+Timer}}
+\item 
+QTimer $\ast$ \mbox{\hyperlink{class_game_a7c8cb26056ecdb8acc25e2433da18829}{Spawn\+Adult\+Timer}}
+\item 
+QTimer $\ast$ \mbox{\hyperlink{class_game_ae95558ff80ca12532a11a479269a0a5d}{Spawn\+Mother\+Timer}}
+\item 
+QTimer $\ast$ \mbox{\hyperlink{class_game_aa67fbf1443a0d2ddfc27fc5b95bfafd3}{Wave\+Check\+Timer}}
+\item 
+QTimer $\ast$ \mbox{\hyperlink{class_game_a002642314bcea4d09c8f4870fd9829fc}{Balance\+Update\+Timer}}
+\item 
+QList$<$ QPointF $>$ \mbox{\hyperlink{class_game_abe95b23433c0353887099928a5573c59}{points\+To\+Follow}}
+\item 
+QPush\+Button $\ast$ \mbox{\hyperlink{class_game_afb10d41f3f7802e8e48f8ee894534e38}{done\+\_\+button}}
+\item 
+QMessage\+Box $\ast$ \mbox{\hyperlink{class_game_a9ed36d08e461911578054958699e0287}{Wave\+Complete\+Msg\+Box}}
+\item 
+QMessage\+Box $\ast$ \mbox{\hyperlink{class_game_a534955dde1e28c7169f1c8bd021dc43e}{Game\+Over\+Msg\+Box}}
+\item 
+QMessage\+Box $\ast$ \mbox{\hyperlink{class_game_a978a23d86116bdb70c7ec7df8b3f4854}{Level\+Complete\+Msg\+Box}}
+\item 
+QGraphics\+Text\+Item $\ast$ \mbox{\hyperlink{class_game_a6c7333b3b679e7a6817d1e5ef23b0e9e}{Current\+Balance\+Text}}
+\item 
+\mbox{\hyperlink{class_build_basic_tower_icon}{Build\+Basic\+Tower\+Icon}} $\ast$ \mbox{\hyperlink{class_game_a9538d6590e57dc8a63729a15298724d3}{basic\+\_\+tower\+\_\+icon}}
+\item 
+\mbox{\hyperlink{class_build_machine_gun_tower_icon}{Build\+Machine\+Gun\+Tower\+Icon}} $\ast$ \mbox{\hyperlink{class_game_aa9ca56efb69a5cdacfd7435825795d60}{machine\+\_\+gun\+\_\+tower\+\_\+icon}}
+\item 
+\mbox{\hyperlink{class_build_shotgun_tower_icon}{Build\+Shotgun\+Tower\+Icon}} $\ast$ \mbox{\hyperlink{class_game_ab1182a4d1e27759d1180158c71cdd149}{shotgun\+\_\+tower\+\_\+icon}}
+\item 
+int \mbox{\hyperlink{class_game_a9cb411abb26cffbe9125ecfad93084de}{child\+\_\+killed}}
+\item 
+int \mbox{\hyperlink{class_game_ae401b2f73811a2f65fc3d2b974512097}{adult\+\_\+killed}}
+\item 
+int \mbox{\hyperlink{class_game_afab68453dad0bb1332ee3b355ba7a06c}{mother\+\_\+killed}}
+\item 
+int \mbox{\hyperlink{class_game_a123a5a90aee413cd87840b0915a890e2}{child\+\_\+spawmed}}
+\item 
+int \mbox{\hyperlink{class_game_a90a0a695e9207f925896d5097dc0b33b}{adult\+\_\+spawmed}}
+\item 
+int \mbox{\hyperlink{class_game_a06843f361afdcf5cae048b13c2f5b097}{mother\+\_\+spawmed}}
+\item 
+int \mbox{\hyperlink{class_game_a5f2870116ae8afba14f2c8c408af4e8c}{spawn\+\_\+interval}}
+\item 
+int \mbox{\hyperlink{class_game_abff62dab7873f41205d91ae1a7977007}{total\+\_\+spawned}}
+\item 
+bool \mbox{\hyperlink{class_game_af3b389a750f1222fb7db61358cf4e0e6}{game\+\_\+over\+\_\+flag}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_af327fe2a81c2f4a265d378e20b26b4ee}\label{class_game_af327fe2a81c2f4a265d378e20b26b4ee}} 
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game\+::\+Game (\begin{DoxyParamCaption}\item[{int}]{tile\+\_\+width,  }\item[{int}]{tile\+\_\+height,  }\item[{int}]{player\+\_\+balance }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_game}{Game}}\+:\+: \mbox{\hyperlink{class_game}{Game}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tile\+\_\+width} & Tile width for the game view \\
+\hline
+{\em tile\+\_\+height} & Tile height for the game view \\
+\hline
+{\em player\+\_\+balance} & Player balance at the start return None \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_ae3d112ca6e0e55150d2fdbc704474530}\label{class_game_ae3d112ca6e0e55150d2fdbc704474530}} 
+\index{Game@{Game}!````~Game@{$\sim$Game}}
+\index{````~Game@{$\sim$Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{$\sim$Game()}{~Game()}}
+{\footnotesize\ttfamily Game\+::$\sim$\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_game}{Game}}\+:\+: \mbox{\hyperlink{class_game}{Game}} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_a80c4a96df06cfc1aedc984c1a6cd25e8}\label{class_game_a80c4a96df06cfc1aedc984c1a6cd25e8}} 
+\index{Game@{Game}!createEnemies@{createEnemies}}
+\index{createEnemies@{createEnemies}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{createEnemies()}{createEnemies()}}
+{\footnotesize\ttfamily void Game\+::create\+Enemies (\begin{DoxyParamCaption}\item[{int}]{child\+\_\+ammount,  }\item[{int}]{adult\+\_\+ammount,  }\item[{int}]{mother\+\_\+ammount,  }\item[{int}]{interval }\end{DoxyParamCaption})}
+
+
+
+Create enemies and set their spawn time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em child\+\_\+ammount} & Number of child cockroached to spawn \\
+\hline
+{\em adult\+\_\+ammount} & Number of adult cockroached to spawn \\
+\hline
+{\em mother\+\_\+ammount} & Number of mother cockroached to spawn \\
+\hline
+{\em interval} & Interval for cockroach spawn\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NONE 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_aa33783d0bfdf55056ddf27b045aa1cbf}\label{class_game_aa33783d0bfdf55056ddf27b045aa1cbf}} 
+\index{Game@{Game}!CreateNewLevel@{CreateNewLevel}}
+\index{CreateNewLevel@{CreateNewLevel}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{CreateNewLevel}{CreateNewLevel}}
+{\footnotesize\ttfamily void Game\+::\+Create\+New\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Create map layout based on the current level. 
+
+Create New game settings for user based on the current level 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ac00297e3e4871067851244bd3b165b2c}\label{class_game_ac00297e3e4871067851244bd3b165b2c}} 
+\index{Game@{Game}!GameOver@{GameOver}}
+\index{GameOver@{GameOver}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GameOver}{GameOver}}
+{\footnotesize\ttfamily void Game\+::\+Game\+Over (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_game_a2698f9a35f5a6ffe6d98854a532c477b}\label{class_game_a2698f9a35f5a6ffe6d98854a532c477b}} 
+\index{Game@{Game}!IsWaveComplete@{IsWaveComplete}}
+\index{IsWaveComplete@{IsWaveComplete}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{IsWaveComplete}{IsWaveComplete}}
+{\footnotesize\ttfamily void Game\+::\+Is\+Wave\+Complete (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for checking if the current wave is complete. 
+
+Check if all enemies were killed or not 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a7a3319aee646037d616114fe76e23073}\label{class_game_a7a3319aee646037d616114fe76e23073}} 
+\index{Game@{Game}!LevelTwo@{LevelTwo}}
+\index{LevelTwo@{LevelTwo}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{LevelTwo()}{LevelTwo()}}
+{\footnotesize\ttfamily void Game\+::\+Level\+Two (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_game_ad761e49ff42758930e76b477d08ba068}\label{class_game_ad761e49ff42758930e76b477d08ba068}} 
+\index{Game@{Game}!mouseMoveEvent@{mouseMoveEvent}}
+\index{mouseMoveEvent@{mouseMoveEvent}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mouseMoveEvent()}{mouseMoveEvent()}}
+{\footnotesize\ttfamily void Game\+::mouse\+Move\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event $\ast$}]{event }\end{DoxyParamCaption})}
+
+
+
+Cursor follows the mouse. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & tracks the position of mouse movement\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a704ba119948eebd1b6dfc547de967796}\label{class_game_a704ba119948eebd1b6dfc547de967796}} 
+\index{Game@{Game}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily void Game\+::mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{QMouse\+Event $\ast$}]{event }\end{DoxyParamCaption})}
+
+
+
+Tracks the items pressed by the mouse. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & tracks the position of mouse movement\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ace85e926f2bf391130fdd1298122ef1f}\label{class_game_ace85e926f2bf391130fdd1298122ef1f}} 
+\index{Game@{Game}!ResetLevel@{ResetLevel}}
+\index{ResetLevel@{ResetLevel}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{ResetLevel}{ResetLevel}}
+{\footnotesize\ttfamily void Game\+::\+Reset\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Waiting for player ot start the wave again. 
+
+\mbox{\Hypertarget{class_game_a7272e282812b8af0be83044db196dc6c}\label{class_game_a7272e282812b8af0be83044db196dc6c}} 
+\index{Game@{Game}!setCursor@{setCursor}}
+\index{setCursor@{setCursor}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setCursor()}{setCursor()}}
+{\footnotesize\ttfamily void Game\+::set\+Cursor (\begin{DoxyParamCaption}\item[{QString}]{filename }\end{DoxyParamCaption})}
+
+
+
+Change the cursor to the picture given as parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & points to the filename\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a43fd0a3e3c90eec156ac6163865ab12e}\label{class_game_a43fd0a3e3c90eec156ac6163865ab12e}} 
+\index{Game@{Game}!SpawnAdult@{SpawnAdult}}
+\index{SpawnAdult@{SpawnAdult}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{SpawnAdult}{SpawnAdult}}
+{\footnotesize\ttfamily void Game\+::\+Spawn\+Adult (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for spawning adult cockroaches. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NONE} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NONE 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a24977814cf4e883e0bbcefdf576ff7aa}\label{class_game_a24977814cf4e883e0bbcefdf576ff7aa}} 
+\index{Game@{Game}!SpawnChild@{SpawnChild}}
+\index{SpawnChild@{SpawnChild}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{SpawnChild}{SpawnChild}}
+{\footnotesize\ttfamily void Game\+::\+Spawn\+Child (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for spawning child cockroaches. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NONE} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NONE 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a547f319b93a0424ce9027fbeaead1f44}\label{class_game_a547f319b93a0424ce9027fbeaead1f44}} 
+\index{Game@{Game}!SpawnMother@{SpawnMother}}
+\index{SpawnMother@{SpawnMother}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{SpawnMother}{SpawnMother}}
+{\footnotesize\ttfamily void Game\+::\+Spawn\+Mother (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for spawning mother cockroaches. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NONE} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+NONE 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a34c71c3369c9b26b9d2cdb61238a26a8}\label{class_game_a34c71c3369c9b26b9d2cdb61238a26a8}} 
+\index{Game@{Game}!StartNextWave@{StartNextWave}}
+\index{StartNextWave@{StartNextWave}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{StartNextWave}{StartNextWave}}
+{\footnotesize\ttfamily void Game\+::\+Start\+Next\+Wave (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_game_a5733ef6f55dbeeec4a608c64e67c559e}\label{class_game_a5733ef6f55dbeeec4a608c64e67c559e}} 
+\index{Game@{Game}!StartWave@{StartWave}}
+\index{StartWave@{StartWave}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{StartWave}{StartWave}}
+{\footnotesize\ttfamily void Game\+::\+Start\+Wave (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot starting the wave and creating the enemies. 
+
+Create numbers of enemies 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a503da4f858d6e7655a3b9bd4687b53cb}\label{class_game_a503da4f858d6e7655a3b9bd4687b53cb}} 
+\index{Game@{Game}!UpdateBalance@{UpdateBalance}}
+\index{UpdateBalance@{UpdateBalance}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{UpdateBalance}{UpdateBalance}}
+{\footnotesize\ttfamily void Game\+::\+Update\+Balance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot updating player balance in game view. 
+
+Check user banking balance again 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a851d9367fddbdbc080841ee2e7011e2e}\label{class_game_a851d9367fddbdbc080841ee2e7011e2e}} 
+\index{Game@{Game}!WaitForPlayer@{WaitForPlayer}}
+\index{WaitForPlayer@{WaitForPlayer}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{WaitForPlayer}{WaitForPlayer}}
+{\footnotesize\ttfamily void Game\+::\+Wait\+For\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for Waiting for the player to start the wave again. 
+
+\mbox{\Hypertarget{class_game_ae838c3ee7f753c4eecd54c956a1789ae}\label{class_game_ae838c3ee7f753c4eecd54c956a1789ae}} 
+\index{Game@{Game}!WaveComplete@{WaveComplete}}
+\index{WaveComplete@{WaveComplete}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{WaveComplete}{WaveComplete}}
+{\footnotesize\ttfamily void Game\+::\+Wave\+Complete (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Slot for handling when wave is complete. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_game_ae401b2f73811a2f65fc3d2b974512097}\label{class_game_ae401b2f73811a2f65fc3d2b974512097}} 
+\index{Game@{Game}!adult\_killed@{adult\_killed}}
+\index{adult\_killed@{adult\_killed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{adult\_killed}{adult\_killed}}
+{\footnotesize\ttfamily int Game\+::adult\+\_\+killed}
+
+\mbox{\Hypertarget{class_game_a90a0a695e9207f925896d5097dc0b33b}\label{class_game_a90a0a695e9207f925896d5097dc0b33b}} 
+\index{Game@{Game}!adult\_spawmed@{adult\_spawmed}}
+\index{adult\_spawmed@{adult\_spawmed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{adult\_spawmed}{adult\_spawmed}}
+{\footnotesize\ttfamily int Game\+::adult\+\_\+spawmed}
+
+\mbox{\Hypertarget{class_game_a002642314bcea4d09c8f4870fd9829fc}\label{class_game_a002642314bcea4d09c8f4870fd9829fc}} 
+\index{Game@{Game}!BalanceUpdateTimer@{BalanceUpdateTimer}}
+\index{BalanceUpdateTimer@{BalanceUpdateTimer}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{BalanceUpdateTimer}{BalanceUpdateTimer}}
+{\footnotesize\ttfamily QTimer$\ast$ Game\+::\+Balance\+Update\+Timer}
+
+\mbox{\Hypertarget{class_game_a9538d6590e57dc8a63729a15298724d3}\label{class_game_a9538d6590e57dc8a63729a15298724d3}} 
+\index{Game@{Game}!basic\_tower\_icon@{basic\_tower\_icon}}
+\index{basic\_tower\_icon@{basic\_tower\_icon}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{basic\_tower\_icon}{basic\_tower\_icon}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_build_basic_tower_icon}{Build\+Basic\+Tower\+Icon}}$\ast$ Game\+::basic\+\_\+tower\+\_\+icon}
+
+\mbox{\Hypertarget{class_game_a5917b4e021a93be7666ebc2ef4529401}\label{class_game_a5917b4e021a93be7666ebc2ef4529401}} 
+\index{Game@{Game}!building@{building}}
+\index{building@{building}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{building}{building}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tower}{Tower}}$\ast$ Game\+::building}
+
+\mbox{\Hypertarget{class_game_a9cb411abb26cffbe9125ecfad93084de}\label{class_game_a9cb411abb26cffbe9125ecfad93084de}} 
+\index{Game@{Game}!child\_killed@{child\_killed}}
+\index{child\_killed@{child\_killed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{child\_killed}{child\_killed}}
+{\footnotesize\ttfamily int Game\+::child\+\_\+killed}
+
+\mbox{\Hypertarget{class_game_a123a5a90aee413cd87840b0915a890e2}\label{class_game_a123a5a90aee413cd87840b0915a890e2}} 
+\index{Game@{Game}!child\_spawmed@{child\_spawmed}}
+\index{child\_spawmed@{child\_spawmed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{child\_spawmed}{child\_spawmed}}
+{\footnotesize\ttfamily int Game\+::child\+\_\+spawmed}
+
+\mbox{\Hypertarget{class_game_a6c7333b3b679e7a6817d1e5ef23b0e9e}\label{class_game_a6c7333b3b679e7a6817d1e5ef23b0e9e}} 
+\index{Game@{Game}!CurrentBalanceText@{CurrentBalanceText}}
+\index{CurrentBalanceText@{CurrentBalanceText}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{CurrentBalanceText}{CurrentBalanceText}}
+{\footnotesize\ttfamily QGraphics\+Text\+Item$\ast$ Game\+::\+Current\+Balance\+Text}
+
+\mbox{\Hypertarget{class_game_ac8bde3bd16f503846f66bbb866c3b7b9}\label{class_game_ac8bde3bd16f503846f66bbb866c3b7b9}} 
+\index{Game@{Game}!cursor@{cursor}}
+\index{cursor@{cursor}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{cursor}{cursor}}
+{\footnotesize\ttfamily QGraphics\+Pixmap\+Item$\ast$ Game\+::cursor}
+
+\mbox{\Hypertarget{class_game_afb10d41f3f7802e8e48f8ee894534e38}\label{class_game_afb10d41f3f7802e8e48f8ee894534e38}} 
+\index{Game@{Game}!done\_button@{done\_button}}
+\index{done\_button@{done\_button}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{done\_button}{done\_button}}
+{\footnotesize\ttfamily QPush\+Button$\ast$ Game\+::done\+\_\+button}
+
+\mbox{\Hypertarget{class_game_af3b389a750f1222fb7db61358cf4e0e6}\label{class_game_af3b389a750f1222fb7db61358cf4e0e6}} 
+\index{Game@{Game}!game\_over\_flag@{game\_over\_flag}}
+\index{game\_over\_flag@{game\_over\_flag}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{game\_over\_flag}{game\_over\_flag}}
+{\footnotesize\ttfamily bool Game\+::game\+\_\+over\+\_\+flag = false}
+
+\mbox{\Hypertarget{class_game_a534955dde1e28c7169f1c8bd021dc43e}\label{class_game_a534955dde1e28c7169f1c8bd021dc43e}} 
+\index{Game@{Game}!GameOverMsgBox@{GameOverMsgBox}}
+\index{GameOverMsgBox@{GameOverMsgBox}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GameOverMsgBox}{GameOverMsgBox}}
+{\footnotesize\ttfamily QMessage\+Box$\ast$ Game\+::\+Game\+Over\+Msg\+Box}
+
+\mbox{\Hypertarget{class_game_a978a23d86116bdb70c7ec7df8b3f4854}\label{class_game_a978a23d86116bdb70c7ec7df8b3f4854}} 
+\index{Game@{Game}!LevelCompleteMsgBox@{LevelCompleteMsgBox}}
+\index{LevelCompleteMsgBox@{LevelCompleteMsgBox}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{LevelCompleteMsgBox}{LevelCompleteMsgBox}}
+{\footnotesize\ttfamily QMessage\+Box$\ast$ Game\+::\+Level\+Complete\+Msg\+Box}
+
+\mbox{\Hypertarget{class_game_aa9ca56efb69a5cdacfd7435825795d60}\label{class_game_aa9ca56efb69a5cdacfd7435825795d60}} 
+\index{Game@{Game}!machine\_gun\_tower\_icon@{machine\_gun\_tower\_icon}}
+\index{machine\_gun\_tower\_icon@{machine\_gun\_tower\_icon}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{machine\_gun\_tower\_icon}{machine\_gun\_tower\_icon}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_build_machine_gun_tower_icon}{Build\+Machine\+Gun\+Tower\+Icon}}$\ast$ Game\+::machine\+\_\+gun\+\_\+tower\+\_\+icon}
+
+\mbox{\Hypertarget{class_game_afab68453dad0bb1332ee3b355ba7a06c}\label{class_game_afab68453dad0bb1332ee3b355ba7a06c}} 
+\index{Game@{Game}!mother\_killed@{mother\_killed}}
+\index{mother\_killed@{mother\_killed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mother\_killed}{mother\_killed}}
+{\footnotesize\ttfamily int Game\+::mother\+\_\+killed}
+
+\mbox{\Hypertarget{class_game_a06843f361afdcf5cae048b13c2f5b097}\label{class_game_a06843f361afdcf5cae048b13c2f5b097}} 
+\index{Game@{Game}!mother\_spawmed@{mother\_spawmed}}
+\index{mother\_spawmed@{mother\_spawmed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mother\_spawmed}{mother\_spawmed}}
+{\footnotesize\ttfamily int Game\+::mother\+\_\+spawmed}
+
+\mbox{\Hypertarget{class_game_abe95b23433c0353887099928a5573c59}\label{class_game_abe95b23433c0353887099928a5573c59}} 
+\index{Game@{Game}!pointsToFollow@{pointsToFollow}}
+\index{pointsToFollow@{pointsToFollow}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{pointsToFollow}{pointsToFollow}}
+{\footnotesize\ttfamily QList$<$QPointF$>$ Game\+::points\+To\+Follow}
+
+\mbox{\Hypertarget{class_game_a8119e3b9a632906c6808fa294b46a92a}\label{class_game_a8119e3b9a632906c6808fa294b46a92a}} 
+\index{Game@{Game}!scene@{scene}}
+\index{scene@{scene}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{scene}{scene}}
+{\footnotesize\ttfamily QGraphics\+Scene$\ast$ Game\+::scene}
+
+\mbox{\Hypertarget{class_game_ab1182a4d1e27759d1180158c71cdd149}\label{class_game_ab1182a4d1e27759d1180158c71cdd149}} 
+\index{Game@{Game}!shotgun\_tower\_icon@{shotgun\_tower\_icon}}
+\index{shotgun\_tower\_icon@{shotgun\_tower\_icon}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{shotgun\_tower\_icon}{shotgun\_tower\_icon}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_build_shotgun_tower_icon}{Build\+Shotgun\+Tower\+Icon}}$\ast$ Game\+::shotgun\+\_\+tower\+\_\+icon}
+
+\mbox{\Hypertarget{class_game_a5f2870116ae8afba14f2c8c408af4e8c}\label{class_game_a5f2870116ae8afba14f2c8c408af4e8c}} 
+\index{Game@{Game}!spawn\_interval@{spawn\_interval}}
+\index{spawn\_interval@{spawn\_interval}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{spawn\_interval}{spawn\_interval}}
+{\footnotesize\ttfamily int Game\+::spawn\+\_\+interval}
+
+\mbox{\Hypertarget{class_game_a7c8cb26056ecdb8acc25e2433da18829}\label{class_game_a7c8cb26056ecdb8acc25e2433da18829}} 
+\index{Game@{Game}!SpawnAdultTimer@{SpawnAdultTimer}}
+\index{SpawnAdultTimer@{SpawnAdultTimer}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{SpawnAdultTimer}{SpawnAdultTimer}}
+{\footnotesize\ttfamily QTimer$\ast$ Game\+::\+Spawn\+Adult\+Timer}
+
+\mbox{\Hypertarget{class_game_a6fc89dc175ed64c64f03d4b26b95d110}\label{class_game_a6fc89dc175ed64c64f03d4b26b95d110}} 
+\index{Game@{Game}!SpawnChildTimer@{SpawnChildTimer}}
+\index{SpawnChildTimer@{SpawnChildTimer}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{SpawnChildTimer}{SpawnChildTimer}}
+{\footnotesize\ttfamily QTimer$\ast$ Game\+::\+Spawn\+Child\+Timer}
+
+\mbox{\Hypertarget{class_game_ae95558ff80ca12532a11a479269a0a5d}\label{class_game_ae95558ff80ca12532a11a479269a0a5d}} 
+\index{Game@{Game}!SpawnMotherTimer@{SpawnMotherTimer}}
+\index{SpawnMotherTimer@{SpawnMotherTimer}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{SpawnMotherTimer}{SpawnMotherTimer}}
+{\footnotesize\ttfamily QTimer$\ast$ Game\+::\+Spawn\+Mother\+Timer}
+
+\mbox{\Hypertarget{class_game_abff62dab7873f41205d91ae1a7977007}\label{class_game_abff62dab7873f41205d91ae1a7977007}} 
+\index{Game@{Game}!total\_spawned@{total\_spawned}}
+\index{total\_spawned@{total\_spawned}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{total\_spawned}{total\_spawned}}
+{\footnotesize\ttfamily int Game\+::total\+\_\+spawned}
+
+\mbox{\Hypertarget{class_game_af336c3f6691b0689a529bba908db4b04}\label{class_game_af336c3f6691b0689a529bba908db4b04}} 
+\index{Game@{Game}!view@{view}}
+\index{view@{view}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{view}{view}}
+{\footnotesize\ttfamily QGraphics\+View$\ast$ Game\+::view}
+
+\mbox{\Hypertarget{class_game_aa67fbf1443a0d2ddfc27fc5b95bfafd3}\label{class_game_aa67fbf1443a0d2ddfc27fc5b95bfafd3}} 
+\index{Game@{Game}!WaveCheckTimer@{WaveCheckTimer}}
+\index{WaveCheckTimer@{WaveCheckTimer}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{WaveCheckTimer}{WaveCheckTimer}}
+{\footnotesize\ttfamily QTimer$\ast$ Game\+::\+Wave\+Check\+Timer}
+
+\mbox{\Hypertarget{class_game_a9ed36d08e461911578054958699e0287}\label{class_game_a9ed36d08e461911578054958699e0287}} 
+\index{Game@{Game}!WaveCompleteMsgBox@{WaveCompleteMsgBox}}
+\index{WaveCompleteMsgBox@{WaveCompleteMsgBox}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{WaveCompleteMsgBox}{WaveCompleteMsgBox}}
+{\footnotesize\ttfamily QMessage\+Box$\ast$ Game\+::\+Wave\+Complete\+Msg\+Box}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/include/\mbox{\hyperlink{game_8hpp}{game.\+hpp}}\item 
+src/\mbox{\hyperlink{game_8cpp}{game.\+cpp}}\end{DoxyCompactItemize}

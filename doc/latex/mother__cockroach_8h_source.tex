@@ -1,0 +1,26 @@
+\hypertarget{mother__cockroach_8h_source}{}\doxysection{mother\+\_\+cockroach.\+h}
+\label{mother__cockroach_8h_source}\index{src/include/mother\_cockroach.h@{src/include/mother\_cockroach.h}}
+\mbox{\hyperlink{mother__cockroach_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef MOTHER\_COCKROACH\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define MOTHER\_COCKROACH\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{cockroach_8h}{cockroach.h}}"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }\mbox{\hyperlink{class_mother__cockroach}{Mother\_cockroach}}:\textcolor{keyword}{public} \mbox{\hyperlink{class_cockroach}{Cockroach}}\{}
+\DoxyCodeLine{7 \textcolor{keyword}{public}:}
+\DoxyCodeLine{8     \mbox{\hyperlink{class_mother__cockroach_ac2fd20478c26f81404c843aabf97bbd9}{Mother\_cockroach}}(\textcolor{keywordtype}{int} health, \textcolor{keywordtype}{int} speed, \textcolor{keywordtype}{int} value, \textcolor{keywordtype}{int} child\_health, \textcolor{keywordtype}{int} child\_speed, \textcolor{keywordtype}{int} child\_value, QList<QPointF>pointsToFollow,}
+\DoxyCodeLine{9                     QGraphicsItem *parent = 0);}
+\DoxyCodeLine{10 \textcolor{keyword}{private}:}
+\DoxyCodeLine{11     \textcolor{keywordtype}{void} Split();}
+\DoxyCodeLine{12     \textcolor{keywordtype}{void} GotHit(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{13     \textcolor{keywordtype}{int} child\_health\_;}
+\DoxyCodeLine{14     \textcolor{keywordtype}{int} child\_speed\_;}
+\DoxyCodeLine{15     \textcolor{keywordtype}{int} child\_value\_;}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \};}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// MOTHER\_COCKROACH\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,462 @@
+\hypertarget{class_cockroach}{}\doxysection{Cockroach Class Reference}
+\label{class_cockroach}\index{Cockroach@{Cockroach}}
+
+
+{\ttfamily \#include $<$cockroach.\+h$>$}
+
+Inheritance diagram for Cockroach\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_cockroach}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_cockroach_a9f9276ba005a49bdc33722316d4c0560}{Move}} ()
+\begin{DoxyCompactList}\small\item\em Defines how cockroach move, when cockroach get close to destination, set destination to the next. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_cockroach_af16e68150a46b20cd4e93d9a05a0e587}{Got\+Hit}} (int damage)
+\begin{DoxyCompactList}\small\item\em When croach receive hit, decrease health. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cockroach_a3dbf6cf416817b9ffa73643bfbc3a61d}{Cockroach}} ()=default
+\item 
+\mbox{\hyperlink{class_cockroach_a271da42153e9cbdaa3145705d2c0fe7d}{Cockroach}} (int health, int speed, int value, QList$<$ QPointF $>$ points\+To\+Follow, QGraphics\+Item $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_cockroach}{Cockroach}}\+:\+: \mbox{\hyperlink{class_cockroach}{Cockroach}} object This \mbox{\hyperlink{class_cockroach}{Cockroach}} is the base class of all three kinds of \mbox{\hyperlink{class_cockroach}{Cockroach}} It initialize the health, speed, value and enemy path The function move() and Got\+Hit are overwritten by the subclasses. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cockroach_a081bbe0163c7709f0262b70881b6e7ab}{Cockroach}} (const \mbox{\hyperlink{class_cockroach}{Cockroach}} \&Coch)=delete
+\item 
+\mbox{\hyperlink{class_cockroach}{Cockroach}} \& \mbox{\hyperlink{class_cockroach_ac49938dd1c79a8bf3ade3d09bc814a2a}{operator=}} (\mbox{\hyperlink{class_cockroach}{Cockroach}} \&coch)=delete
+\item 
+\mbox{\hyperlink{class_cockroach_a9644d0d7713fcaf2fe7d47ce7a986c6b}{$\sim$\+Cockroach}} ()=default
+\item 
+int \mbox{\hyperlink{class_cockroach_a4abbd52cbc460ee4ff28841e6523bf1e}{Get\+Value}} () const
+\begin{DoxyCompactList}\small\item\em Get the cockroach value. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cockroach_abdc70c3b0dda0caeee03a0739951f993}{Get\+Health}} () const
+\begin{DoxyCompactList}\small\item\em Get the cockroach health. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cockroach_a9472f3637044cc5700aebf6f78a6a2e7}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Get the cockroach speed. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cockroach_a889b5f2e5ca19603f19310de30ac60cb}{Get\+Dest\+Index}} () const
+\begin{DoxyCompactList}\small\item\em Find the location of the current destination. \end{DoxyCompactList}\item 
+QPointF \mbox{\hyperlink{class_cockroach_af9cc0889107e75f8b0d55719cb7affce}{Get\+Dest}} () const
+\item 
+QList$<$ QPointF $>$ \mbox{\hyperlink{class_cockroach_a1dcf7728efcad483b9f2a29531c3410a}{Get\+Point\+List}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_cockroach_aa9c60764b65945c83ee4e9b8511fd87c}{Prevent\+Collide}} ()
+\begin{DoxyCompactList}\small\item\em Defines actions when cockroach collide. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cockroach_a177be30c9520ef70f4081f49ce4ba80d}{Prevent\+Collided\+To\+Cocsh}} ()
+\begin{DoxyCompactList}\small\item\em Defines actions when cockroach collide to other cockroach. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cockroach_a97a2aa7ca98dc259aa56244a266ca824}{Prevent\+Out\+Of\+Boundry}} ()
+\begin{DoxyCompactList}\small\item\em Defines actions when cockroach collide to boundary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cockroach_a730147aed23f918964991089700d20e9}{Bounce\+To\+Wall}} ()
+\begin{DoxyCompactList}\small\item\em Defines actions when cockroach collide to wall. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cockroach_ae0825f47fec5e29d6e8005f524dbf4a0}{Walk\+To}} (QPointF)
+\begin{DoxyCompactList}\small\item\em Defines how cockroach take steps to the destination. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_cockroach_a55288473b572b47602b956c33dffbbe7}{Is\+Dead}} ()
+\begin{DoxyCompactList}\small\item\em Checks if cockroach is dead. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cockroach_a6982a298d112f80769796857ca2d7dcc}{Rotate\+To\+Point}} (QPointF p)
+\begin{DoxyCompactList}\small\item\em Defines how enemy change its direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QList$<$ QPointF $>$ \mbox{\hyperlink{class_cockroach_a8518aa5cd88da7c79f095bec851fe732}{points\+\_\+}}
+\item 
+QPointF \mbox{\hyperlink{class_cockroach_aa77d9485321ecd7bc314abf0f598643e}{dest\+\_\+}}
+\item 
+int \mbox{\hyperlink{class_cockroach_a041868071b30fa9c718240e608dfe228}{dest\+List\+\_\+index\+\_\+}}
+\item 
+int \mbox{\hyperlink{class_cockroach_a2424e47d48bd8323a5610090db8b0c16}{health\+\_\+}}
+\item 
+int \mbox{\hyperlink{class_cockroach_a9fd10f128f0316c4743e46540b891c6b}{speed\+\_\+}}
+\item 
+int \mbox{\hyperlink{class_cockroach_ae5555499c0cf048cff6f9d9d8057d704}{value\+\_\+}}
+\item 
+double \mbox{\hyperlink{class_cockroach_ab9f0c8d0bd29730f73edab6d10cce09d}{dx}}
+\item 
+double \mbox{\hyperlink{class_cockroach_a579a9d068fbaee1819624e4c6ea1bc2a}{dy}}
+\item 
+int \mbox{\hyperlink{class_cockroach_a15543ffe2b3277ea85d8c5de4d8f6d58}{assB}}
+\item 
+qreal \mbox{\hyperlink{class_cockroach_a408dc541667bc2a4161dc2dcafa04d26}{variant\+\_\+}} = 0
+\item 
+QTimer $\ast$ \mbox{\hyperlink{class_cockroach_a3d73aba005f92da50a35891f7351048a}{timer\+\_\+}} = nullptr
+\item 
+QList$<$ QGraphics\+Item $\ast$ $>$ \mbox{\hyperlink{class_cockroach_a545968543c3245834c2461c41f66a43d}{colliding\+\_\+items}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_cockroach_a3dbf6cf416817b9ffa73643bfbc3a61d}\label{class_cockroach_a3dbf6cf416817b9ffa73643bfbc3a61d}} 
+\index{Cockroach@{Cockroach}!Cockroach@{Cockroach}}
+\index{Cockroach@{Cockroach}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{Cockroach()}{Cockroach()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Cockroach\+::\+Cockroach (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_cockroach_a271da42153e9cbdaa3145705d2c0fe7d}\label{class_cockroach_a271da42153e9cbdaa3145705d2c0fe7d}} 
+\index{Cockroach@{Cockroach}!Cockroach@{Cockroach}}
+\index{Cockroach@{Cockroach}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{Cockroach()}{Cockroach()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Cockroach\+::\+Cockroach (\begin{DoxyParamCaption}\item[{int}]{health,  }\item[{int}]{speed,  }\item[{int}]{value,  }\item[{QList$<$ QPointF $>$}]{points\+To\+Follow,  }\item[{QGraphics\+Item $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_cockroach}{Cockroach}}\+:\+: \mbox{\hyperlink{class_cockroach}{Cockroach}} object This \mbox{\hyperlink{class_cockroach}{Cockroach}} is the base class of all three kinds of \mbox{\hyperlink{class_cockroach}{Cockroach}} It initialize the health, speed, value and enemy path The function move() and Got\+Hit are overwritten by the subclasses. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em health} & \mbox{\hyperlink{class_cockroach}{Cockroach}} health \\
+\hline
+{\em speed} & Speed \\
+\hline
+{\em value} & Price of \mbox{\hyperlink{class_cockroach}{Cockroach}} \\
+\hline
+{\em points\+\_\+\+To\+Follow} & Cooridnated the cockroach will follow \\
+\hline
+{\em parent} & QGraphics\+Item \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cockroach_a081bbe0163c7709f0262b70881b6e7ab}\label{class_cockroach_a081bbe0163c7709f0262b70881b6e7ab}} 
+\index{Cockroach@{Cockroach}!Cockroach@{Cockroach}}
+\index{Cockroach@{Cockroach}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{Cockroach()}{Cockroach()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Cockroach\+::\+Cockroach (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_cockroach}{Cockroach}} \&}]{Coch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_cockroach_a9644d0d7713fcaf2fe7d47ce7a986c6b}\label{class_cockroach_a9644d0d7713fcaf2fe7d47ce7a986c6b}} 
+\index{Cockroach@{Cockroach}!````~Cockroach@{$\sim$Cockroach}}
+\index{````~Cockroach@{$\sim$Cockroach}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{$\sim$Cockroach()}{~Cockroach()}}
+{\footnotesize\ttfamily Cockroach\+::$\sim$\+Cockroach (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_cockroach_a730147aed23f918964991089700d20e9}\label{class_cockroach_a730147aed23f918964991089700d20e9}} 
+\index{Cockroach@{Cockroach}!BounceToWall@{BounceToWall}}
+\index{BounceToWall@{BounceToWall}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{BounceToWall()}{BounceToWall()}}
+{\footnotesize\ttfamily void Cockroach\+::\+Bounce\+To\+Wall (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Defines actions when cockroach collide to wall. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_af9cc0889107e75f8b0d55719cb7affce}\label{class_cockroach_af9cc0889107e75f8b0d55719cb7affce}} 
+\index{Cockroach@{Cockroach}!GetDest@{GetDest}}
+\index{GetDest@{GetDest}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{GetDest()}{GetDest()}}
+{\footnotesize\ttfamily QPointF Cockroach\+::\+Get\+Dest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_cockroach_a889b5f2e5ca19603f19310de30ac60cb}\label{class_cockroach_a889b5f2e5ca19603f19310de30ac60cb}} 
+\index{Cockroach@{Cockroach}!GetDestIndex@{GetDestIndex}}
+\index{GetDestIndex@{GetDestIndex}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{GetDestIndex()}{GetDestIndex()}}
+{\footnotesize\ttfamily int Cockroach\+::\+Get\+Dest\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Find the location of the current destination. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+index int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_abdc70c3b0dda0caeee03a0739951f993}\label{class_cockroach_abdc70c3b0dda0caeee03a0739951f993}} 
+\index{Cockroach@{Cockroach}!GetHealth@{GetHealth}}
+\index{GetHealth@{GetHealth}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{GetHealth()}{GetHealth()}}
+{\footnotesize\ttfamily int Cockroach\+::\+Get\+Health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the cockroach health. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+health\+\_\+ health of cockroach 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_a1dcf7728efcad483b9f2a29531c3410a}\label{class_cockroach_a1dcf7728efcad483b9f2a29531c3410a}} 
+\index{Cockroach@{Cockroach}!GetPointList@{GetPointList}}
+\index{GetPointList@{GetPointList}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{GetPointList()}{GetPointList()}}
+{\footnotesize\ttfamily QList$<$ QPointF $>$ Cockroach\+::\+Get\+Point\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_cockroach_a9472f3637044cc5700aebf6f78a6a2e7}\label{class_cockroach_a9472f3637044cc5700aebf6f78a6a2e7}} 
+\index{Cockroach@{Cockroach}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily int Cockroach\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the cockroach speed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+speed\+\_\+ speed of cockroach 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_a4abbd52cbc460ee4ff28841e6523bf1e}\label{class_cockroach_a4abbd52cbc460ee4ff28841e6523bf1e}} 
+\index{Cockroach@{Cockroach}!GetValue@{GetValue}}
+\index{GetValue@{GetValue}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{GetValue()}{GetValue()}}
+{\footnotesize\ttfamily int Cockroach\+::\+Get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the cockroach value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value\+\_\+ value of cockroach 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_af16e68150a46b20cd4e93d9a05a0e587}\label{class_cockroach_af16e68150a46b20cd4e93d9a05a0e587}} 
+\index{Cockroach@{Cockroach}!GotHit@{GotHit}}
+\index{GotHit@{GotHit}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{GotHit}{GotHit}}
+{\footnotesize\ttfamily void Cockroach\+::\+Got\+Hit (\begin{DoxyParamCaption}\item[{int}]{damage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+
+
+When croach receive hit, decrease health. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damage} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cockroach_a55288473b572b47602b956c33dffbbe7}\label{class_cockroach_a55288473b572b47602b956c33dffbbe7}} 
+\index{Cockroach@{Cockroach}!IsDead@{IsDead}}
+\index{IsDead@{IsDead}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{IsDead()}{IsDead()}}
+{\footnotesize\ttfamily bool Cockroach\+::\+Is\+Dead (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Checks if cockroach is dead. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_a9f9276ba005a49bdc33722316d4c0560}\label{class_cockroach_a9f9276ba005a49bdc33722316d4c0560}} 
+\index{Cockroach@{Cockroach}!Move@{Move}}
+\index{Move@{Move}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{Move}{Move}}
+{\footnotesize\ttfamily void Cockroach\+::\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [slot]}}
+
+
+
+Defines how cockroach move, when cockroach get close to destination, set destination to the next. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_ac49938dd1c79a8bf3ade3d09bc814a2a}\label{class_cockroach_ac49938dd1c79a8bf3ade3d09bc814a2a}} 
+\index{Cockroach@{Cockroach}!operator=@{operator=}}
+\index{operator=@{operator=}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cockroach}{Cockroach}} \& Cockroach\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_cockroach}{Cockroach}} \&}]{coch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_cockroach_aa9c60764b65945c83ee4e9b8511fd87c}\label{class_cockroach_aa9c60764b65945c83ee4e9b8511fd87c}} 
+\index{Cockroach@{Cockroach}!PreventCollide@{PreventCollide}}
+\index{PreventCollide@{PreventCollide}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{PreventCollide()}{PreventCollide()}}
+{\footnotesize\ttfamily void Cockroach\+::\+Prevent\+Collide (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Defines actions when cockroach collide. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_a177be30c9520ef70f4081f49ce4ba80d}\label{class_cockroach_a177be30c9520ef70f4081f49ce4ba80d}} 
+\index{Cockroach@{Cockroach}!PreventCollidedToCocsh@{PreventCollidedToCocsh}}
+\index{PreventCollidedToCocsh@{PreventCollidedToCocsh}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{PreventCollidedToCocsh()}{PreventCollidedToCocsh()}}
+{\footnotesize\ttfamily void Cockroach\+::\+Prevent\+Collided\+To\+Cocsh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Defines actions when cockroach collide to other cockroach. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_a97a2aa7ca98dc259aa56244a266ca824}\label{class_cockroach_a97a2aa7ca98dc259aa56244a266ca824}} 
+\index{Cockroach@{Cockroach}!PreventOutOfBoundry@{PreventOutOfBoundry}}
+\index{PreventOutOfBoundry@{PreventOutOfBoundry}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{PreventOutOfBoundry()}{PreventOutOfBoundry()}}
+{\footnotesize\ttfamily void Cockroach\+::\+Prevent\+Out\+Of\+Boundry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Defines actions when cockroach collide to boundary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_a6982a298d112f80769796857ca2d7dcc}\label{class_cockroach_a6982a298d112f80769796857ca2d7dcc}} 
+\index{Cockroach@{Cockroach}!RotateToPoint@{RotateToPoint}}
+\index{RotateToPoint@{RotateToPoint}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{RotateToPoint()}{RotateToPoint()}}
+{\footnotesize\ttfamily int Cockroach\+::\+Rotate\+To\+Point (\begin{DoxyParamCaption}\item[{QPointF}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Defines how enemy change its direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & The destination point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ln.\+length() the distance to next point 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cockroach_ae0825f47fec5e29d6e8005f524dbf4a0}\label{class_cockroach_ae0825f47fec5e29d6e8005f524dbf4a0}} 
+\index{Cockroach@{Cockroach}!WalkTo@{WalkTo}}
+\index{WalkTo@{WalkTo}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{WalkTo()}{WalkTo()}}
+{\footnotesize\ttfamily void Cockroach\+::\+Walk\+To (\begin{DoxyParamCaption}\item[{QPointF}]{next\+Point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Defines how cockroach take steps to the destination. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em next\+Point} & destination point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_cockroach_a15543ffe2b3277ea85d8c5de4d8f6d58}\label{class_cockroach_a15543ffe2b3277ea85d8c5de4d8f6d58}} 
+\index{Cockroach@{Cockroach}!assB@{assB}}
+\index{assB@{assB}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{assB}{assB}}
+{\footnotesize\ttfamily int Cockroach\+::assB\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a545968543c3245834c2461c41f66a43d}\label{class_cockroach_a545968543c3245834c2461c41f66a43d}} 
+\index{Cockroach@{Cockroach}!colliding\_items@{colliding\_items}}
+\index{colliding\_items@{colliding\_items}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{colliding\_items}{colliding\_items}}
+{\footnotesize\ttfamily QList$<$QGraphics\+Item $\ast$$>$ Cockroach\+::colliding\+\_\+items\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_aa77d9485321ecd7bc314abf0f598643e}\label{class_cockroach_aa77d9485321ecd7bc314abf0f598643e}} 
+\index{Cockroach@{Cockroach}!dest\_@{dest\_}}
+\index{dest\_@{dest\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{dest\_}{dest\_}}
+{\footnotesize\ttfamily QPointF Cockroach\+::dest\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a041868071b30fa9c718240e608dfe228}\label{class_cockroach_a041868071b30fa9c718240e608dfe228}} 
+\index{Cockroach@{Cockroach}!destList\_index\_@{destList\_index\_}}
+\index{destList\_index\_@{destList\_index\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{destList\_index\_}{destList\_index\_}}
+{\footnotesize\ttfamily int Cockroach\+::dest\+List\+\_\+index\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_ab9f0c8d0bd29730f73edab6d10cce09d}\label{class_cockroach_ab9f0c8d0bd29730f73edab6d10cce09d}} 
+\index{Cockroach@{Cockroach}!dx@{dx}}
+\index{dx@{dx}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{dx}{dx}}
+{\footnotesize\ttfamily double Cockroach\+::dx\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a579a9d068fbaee1819624e4c6ea1bc2a}\label{class_cockroach_a579a9d068fbaee1819624e4c6ea1bc2a}} 
+\index{Cockroach@{Cockroach}!dy@{dy}}
+\index{dy@{dy}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{dy}{dy}}
+{\footnotesize\ttfamily double Cockroach\+::dy\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a2424e47d48bd8323a5610090db8b0c16}\label{class_cockroach_a2424e47d48bd8323a5610090db8b0c16}} 
+\index{Cockroach@{Cockroach}!health\_@{health\_}}
+\index{health\_@{health\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{health\_}{health\_}}
+{\footnotesize\ttfamily int Cockroach\+::health\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a8518aa5cd88da7c79f095bec851fe732}\label{class_cockroach_a8518aa5cd88da7c79f095bec851fe732}} 
+\index{Cockroach@{Cockroach}!points\_@{points\_}}
+\index{points\_@{points\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{points\_}{points\_}}
+{\footnotesize\ttfamily QList$<$QPointF$>$ Cockroach\+::points\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a9fd10f128f0316c4743e46540b891c6b}\label{class_cockroach_a9fd10f128f0316c4743e46540b891c6b}} 
+\index{Cockroach@{Cockroach}!speed\_@{speed\_}}
+\index{speed\_@{speed\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{speed\_}{speed\_}}
+{\footnotesize\ttfamily int Cockroach\+::speed\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a3d73aba005f92da50a35891f7351048a}\label{class_cockroach_a3d73aba005f92da50a35891f7351048a}} 
+\index{Cockroach@{Cockroach}!timer\_@{timer\_}}
+\index{timer\_@{timer\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{timer\_}{timer\_}}
+{\footnotesize\ttfamily QTimer$\ast$ Cockroach\+::timer\+\_\+ = nullptr\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_ae5555499c0cf048cff6f9d9d8057d704}\label{class_cockroach_ae5555499c0cf048cff6f9d9d8057d704}} 
+\index{Cockroach@{Cockroach}!value\_@{value\_}}
+\index{value\_@{value\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{value\_}{value\_}}
+{\footnotesize\ttfamily int Cockroach\+::value\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_cockroach_a408dc541667bc2a4161dc2dcafa04d26}\label{class_cockroach_a408dc541667bc2a4161dc2dcafa04d26}} 
+\index{Cockroach@{Cockroach}!variant\_@{variant\_}}
+\index{variant\_@{variant\_}!Cockroach@{Cockroach}}
+\doxysubsubsection{\texorpdfstring{variant\_}{variant\_}}
+{\footnotesize\ttfamily qreal Cockroach\+::variant\+\_\+ = 0\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/include/\mbox{\hyperlink{cockroach_8h}{cockroach.\+h}}\item 
+src/\mbox{\hyperlink{cockroach_8cpp}{cockroach.\+cpp}}\end{DoxyCompactItemize}

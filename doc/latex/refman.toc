@@ -1,0 +1,294 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Source content}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Namespace List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Hierarchical Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class Hierarchy}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Class List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}File Index}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}File List}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Namespace Documentation}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ui Namespace Reference}{11}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Class Documentation}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Adult\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach Class Reference}{13}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Constructor \& Destructor Documentation}{13}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}Adult\_cockroach()}{13}{subsubsection.7.1.1.1}%
+\contentsline {section}{\numberline {7.2}Basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tower Class Reference}{14}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Constructor \& Destructor Documentation}{14}{subsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.1}BasicTower()}{14}{subsubsection.7.2.1.1}%
+\contentsline {subsection}{\numberline {7.2.2}Member Function Documentation}{15}{subsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}AcquireTarget}{15}{subsubsection.7.2.2.1}%
+\contentsline {section}{\numberline {7.3}Build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Icon Class Reference}{15}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Constructor \& Destructor Documentation}{15}{subsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.1.1}BuildBasicTowerIcon()}{15}{subsubsection.7.3.1.1}%
+\contentsline {subsection}{\numberline {7.3.2}Member Function Documentation}{16}{subsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.1}mousePressEvent()}{16}{subsubsection.7.3.2.1}%
+\contentsline {section}{\numberline {7.4}Build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Icon Class Reference}{16}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Constructor \& Destructor Documentation}{17}{subsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.1.1}BuildMachineGunTowerIcon()}{17}{subsubsection.7.4.1.1}%
+\contentsline {subsection}{\numberline {7.4.2}Member Function Documentation}{17}{subsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.2.1}mousePressEvent()}{17}{subsubsection.7.4.2.1}%
+\contentsline {section}{\numberline {7.5}Build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Icon Class Reference}{17}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Constructor \& Destructor Documentation}{18}{subsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.1.1}BuildShotgunTowerIcon()}{18}{subsubsection.7.5.1.1}%
+\contentsline {subsection}{\numberline {7.5.2}Member Function Documentation}{18}{subsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.2.1}mousePressEvent()}{18}{subsubsection.7.5.2.1}%
+\contentsline {section}{\numberline {7.6}Bullet Class Reference}{19}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Constructor \& Destructor Documentation}{19}{subsection.7.6.1}%
+\contentsline {subsubsection}{\numberline {7.6.1.1}Bullet()}{20}{subsubsection.7.6.1.1}%
+\contentsline {subsubsection}{\numberline {7.6.1.2}$\sim $Bullet()}{20}{subsubsection.7.6.1.2}%
+\contentsline {subsection}{\numberline {7.6.2}Member Function Documentation}{20}{subsection.7.6.2}%
+\contentsline {subsubsection}{\numberline {7.6.2.1}get\_distance\_travelled}{20}{subsubsection.7.6.2.1}%
+\contentsline {subsubsection}{\numberline {7.6.2.2}get\_max\_range}{20}{subsubsection.7.6.2.2}%
+\contentsline {subsubsection}{\numberline {7.6.2.3}GetDamage()}{20}{subsubsection.7.6.2.3}%
+\contentsline {subsubsection}{\numberline {7.6.2.4}move}{21}{subsubsection.7.6.2.4}%
+\contentsline {subsubsection}{\numberline {7.6.2.5}set\_distance\_travelled}{21}{subsubsection.7.6.2.5}%
+\contentsline {section}{\numberline {7.7}Child\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach Class Reference}{21}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Constructor \& Destructor Documentation}{22}{subsection.7.7.1}%
+\contentsline {subsubsection}{\numberline {7.7.1.1}Child\_cockroach()}{22}{subsubsection.7.7.1.1}%
+\contentsline {section}{\numberline {7.8}Cockroach Class Reference}{22}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Constructor \& Destructor Documentation}{24}{subsection.7.8.1}%
+\contentsline {subsubsection}{\numberline {7.8.1.1}Cockroach()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{24}{subsubsection.7.8.1.1}%
+\contentsline {subsubsection}{\numberline {7.8.1.2}Cockroach()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{24}{subsubsection.7.8.1.2}%
+\contentsline {subsubsection}{\numberline {7.8.1.3}Cockroach()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{25}{subsubsection.7.8.1.3}%
+\contentsline {subsubsection}{\numberline {7.8.1.4}$\sim $Cockroach()}{25}{subsubsection.7.8.1.4}%
+\contentsline {subsection}{\numberline {7.8.2}Member Function Documentation}{25}{subsection.7.8.2}%
+\contentsline {subsubsection}{\numberline {7.8.2.1}BounceToWall()}{25}{subsubsection.7.8.2.1}%
+\contentsline {subsubsection}{\numberline {7.8.2.2}GetDest()}{25}{subsubsection.7.8.2.2}%
+\contentsline {subsubsection}{\numberline {7.8.2.3}GetDestIndex()}{25}{subsubsection.7.8.2.3}%
+\contentsline {subsubsection}{\numberline {7.8.2.4}GetHealth()}{26}{subsubsection.7.8.2.4}%
+\contentsline {subsubsection}{\numberline {7.8.2.5}GetPointList()}{26}{subsubsection.7.8.2.5}%
+\contentsline {subsubsection}{\numberline {7.8.2.6}GetSpeed()}{26}{subsubsection.7.8.2.6}%
+\contentsline {subsubsection}{\numberline {7.8.2.7}GetValue()}{26}{subsubsection.7.8.2.7}%
+\contentsline {subsubsection}{\numberline {7.8.2.8}GotHit}{27}{subsubsection.7.8.2.8}%
+\contentsline {subsubsection}{\numberline {7.8.2.9}IsDead()}{27}{subsubsection.7.8.2.9}%
+\contentsline {subsubsection}{\numberline {7.8.2.10}Move}{27}{subsubsection.7.8.2.10}%
+\contentsline {subsubsection}{\numberline {7.8.2.11}operator=()}{28}{subsubsection.7.8.2.11}%
+\contentsline {subsubsection}{\numberline {7.8.2.12}PreventCollide()}{28}{subsubsection.7.8.2.12}%
+\contentsline {subsubsection}{\numberline {7.8.2.13}PreventCollidedToCocsh()}{28}{subsubsection.7.8.2.13}%
+\contentsline {subsubsection}{\numberline {7.8.2.14}PreventOutOfBoundry()}{28}{subsubsection.7.8.2.14}%
+\contentsline {subsubsection}{\numberline {7.8.2.15}RotateToPoint()}{29}{subsubsection.7.8.2.15}%
+\contentsline {subsubsection}{\numberline {7.8.2.16}WalkTo()}{29}{subsubsection.7.8.2.16}%
+\contentsline {subsection}{\numberline {7.8.3}Member Data Documentation}{29}{subsection.7.8.3}%
+\contentsline {subsubsection}{\numberline {7.8.3.1}assB}{30}{subsubsection.7.8.3.1}%
+\contentsline {subsubsection}{\numberline {7.8.3.2}colliding\_items}{30}{subsubsection.7.8.3.2}%
+\contentsline {subsubsection}{\numberline {7.8.3.3}dest\_}{30}{subsubsection.7.8.3.3}%
+\contentsline {subsubsection}{\numberline {7.8.3.4}destList\_index\_}{30}{subsubsection.7.8.3.4}%
+\contentsline {subsubsection}{\numberline {7.8.3.5}dx}{30}{subsubsection.7.8.3.5}%
+\contentsline {subsubsection}{\numberline {7.8.3.6}dy}{30}{subsubsection.7.8.3.6}%
+\contentsline {subsubsection}{\numberline {7.8.3.7}health\_}{30}{subsubsection.7.8.3.7}%
+\contentsline {subsubsection}{\numberline {7.8.3.8}points\_}{30}{subsubsection.7.8.3.8}%
+\contentsline {subsubsection}{\numberline {7.8.3.9}speed\_}{31}{subsubsection.7.8.3.9}%
+\contentsline {subsubsection}{\numberline {7.8.3.10}timer\_}{31}{subsubsection.7.8.3.10}%
+\contentsline {subsubsection}{\numberline {7.8.3.11}value\_}{31}{subsubsection.7.8.3.11}%
+\contentsline {subsubsection}{\numberline {7.8.3.12}variant\_}{31}{subsubsection.7.8.3.12}%
+\contentsline {section}{\numberline {7.9}Game Class Reference}{31}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Constructor \& Destructor Documentation}{33}{subsection.7.9.1}%
+\contentsline {subsubsection}{\numberline {7.9.1.1}Game()}{33}{subsubsection.7.9.1.1}%
+\contentsline {subsubsection}{\numberline {7.9.1.2}$\sim $Game()}{34}{subsubsection.7.9.1.2}%
+\contentsline {subsection}{\numberline {7.9.2}Member Function Documentation}{34}{subsection.7.9.2}%
+\contentsline {subsubsection}{\numberline {7.9.2.1}createEnemies()}{34}{subsubsection.7.9.2.1}%
+\contentsline {subsubsection}{\numberline {7.9.2.2}CreateNewLevel}{34}{subsubsection.7.9.2.2}%
+\contentsline {subsubsection}{\numberline {7.9.2.3}GameOver}{35}{subsubsection.7.9.2.3}%
+\contentsline {subsubsection}{\numberline {7.9.2.4}IsWaveComplete}{35}{subsubsection.7.9.2.4}%
+\contentsline {subsubsection}{\numberline {7.9.2.5}LevelTwo()}{35}{subsubsection.7.9.2.5}%
+\contentsline {subsubsection}{\numberline {7.9.2.6}mouseMoveEvent()}{35}{subsubsection.7.9.2.6}%
+\contentsline {subsubsection}{\numberline {7.9.2.7}mousePressEvent()}{36}{subsubsection.7.9.2.7}%
+\contentsline {subsubsection}{\numberline {7.9.2.8}ResetLevel}{36}{subsubsection.7.9.2.8}%
+\contentsline {subsubsection}{\numberline {7.9.2.9}setCursor()}{36}{subsubsection.7.9.2.9}%
+\contentsline {subsubsection}{\numberline {7.9.2.10}SpawnAdult}{37}{subsubsection.7.9.2.10}%
+\contentsline {subsubsection}{\numberline {7.9.2.11}SpawnChild}{37}{subsubsection.7.9.2.11}%
+\contentsline {subsubsection}{\numberline {7.9.2.12}SpawnMother}{37}{subsubsection.7.9.2.12}%
+\contentsline {subsubsection}{\numberline {7.9.2.13}StartNextWave}{38}{subsubsection.7.9.2.13}%
+\contentsline {subsubsection}{\numberline {7.9.2.14}StartWave}{38}{subsubsection.7.9.2.14}%
+\contentsline {subsubsection}{\numberline {7.9.2.15}UpdateBalance}{38}{subsubsection.7.9.2.15}%
+\contentsline {subsubsection}{\numberline {7.9.2.16}WaitForPlayer}{38}{subsubsection.7.9.2.16}%
+\contentsline {subsubsection}{\numberline {7.9.2.17}WaveComplete}{39}{subsubsection.7.9.2.17}%
+\contentsline {subsection}{\numberline {7.9.3}Member Data Documentation}{39}{subsection.7.9.3}%
+\contentsline {subsubsection}{\numberline {7.9.3.1}adult\_killed}{39}{subsubsection.7.9.3.1}%
+\contentsline {subsubsection}{\numberline {7.9.3.2}adult\_spawmed}{39}{subsubsection.7.9.3.2}%
+\contentsline {subsubsection}{\numberline {7.9.3.3}BalanceUpdateTimer}{39}{subsubsection.7.9.3.3}%
+\contentsline {subsubsection}{\numberline {7.9.3.4}basic\_tower\_icon}{39}{subsubsection.7.9.3.4}%
+\contentsline {subsubsection}{\numberline {7.9.3.5}building}{39}{subsubsection.7.9.3.5}%
+\contentsline {subsubsection}{\numberline {7.9.3.6}child\_killed}{40}{subsubsection.7.9.3.6}%
+\contentsline {subsubsection}{\numberline {7.9.3.7}child\_spawmed}{40}{subsubsection.7.9.3.7}%
+\contentsline {subsubsection}{\numberline {7.9.3.8}CurrentBalanceText}{40}{subsubsection.7.9.3.8}%
+\contentsline {subsubsection}{\numberline {7.9.3.9}cursor}{40}{subsubsection.7.9.3.9}%
+\contentsline {subsubsection}{\numberline {7.9.3.10}done\_button}{40}{subsubsection.7.9.3.10}%
+\contentsline {subsubsection}{\numberline {7.9.3.11}game\_over\_flag}{40}{subsubsection.7.9.3.11}%
+\contentsline {subsubsection}{\numberline {7.9.3.12}GameOverMsgBox}{40}{subsubsection.7.9.3.12}%
+\contentsline {subsubsection}{\numberline {7.9.3.13}LevelCompleteMsgBox}{40}{subsubsection.7.9.3.13}%
+\contentsline {subsubsection}{\numberline {7.9.3.14}machine\_gun\_tower\_icon}{41}{subsubsection.7.9.3.14}%
+\contentsline {subsubsection}{\numberline {7.9.3.15}mother\_killed}{41}{subsubsection.7.9.3.15}%
+\contentsline {subsubsection}{\numberline {7.9.3.16}mother\_spawmed}{41}{subsubsection.7.9.3.16}%
+\contentsline {subsubsection}{\numberline {7.9.3.17}pointsToFollow}{41}{subsubsection.7.9.3.17}%
+\contentsline {subsubsection}{\numberline {7.9.3.18}scene}{41}{subsubsection.7.9.3.18}%
+\contentsline {subsubsection}{\numberline {7.9.3.19}shotgun\_tower\_icon}{41}{subsubsection.7.9.3.19}%
+\contentsline {subsubsection}{\numberline {7.9.3.20}spawn\_interval}{41}{subsubsection.7.9.3.20}%
+\contentsline {subsubsection}{\numberline {7.9.3.21}SpawnAdultTimer}{41}{subsubsection.7.9.3.21}%
+\contentsline {subsubsection}{\numberline {7.9.3.22}SpawnChildTimer}{42}{subsubsection.7.9.3.22}%
+\contentsline {subsubsection}{\numberline {7.9.3.23}SpawnMotherTimer}{42}{subsubsection.7.9.3.23}%
+\contentsline {subsubsection}{\numberline {7.9.3.24}total\_spawned}{42}{subsubsection.7.9.3.24}%
+\contentsline {subsubsection}{\numberline {7.9.3.25}view}{42}{subsubsection.7.9.3.25}%
+\contentsline {subsubsection}{\numberline {7.9.3.26}WaveCheckTimer}{42}{subsubsection.7.9.3.26}%
+\contentsline {subsubsection}{\numberline {7.9.3.27}WaveCompleteMsgBox}{42}{subsubsection.7.9.3.27}%
+\contentsline {section}{\numberline {7.10}Item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Not\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tile Class Reference}{42}{section.7.10}%
+\contentsline {subsection}{\numberline {7.10.1}Constructor \& Destructor Documentation}{43}{subsection.7.10.1}%
+\contentsline {subsubsection}{\numberline {7.10.1.1}ItemNotPlacebleTile()}{43}{subsubsection.7.10.1.1}%
+\contentsline {subsubsection}{\numberline {7.10.1.2}$\sim $ItemNotPlacebleTile()}{43}{subsubsection.7.10.1.2}%
+\contentsline {section}{\numberline {7.11}Item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tile Class Reference}{43}{section.7.11}%
+\contentsline {subsection}{\numberline {7.11.1}Constructor \& Destructor Documentation}{44}{subsection.7.11.1}%
+\contentsline {subsubsection}{\numberline {7.11.1.1}ItemPlacebleTile()}{44}{subsubsection.7.11.1.1}%
+\contentsline {subsubsection}{\numberline {7.11.1.2}$\sim $ItemPlacebleTile()}{44}{subsubsection.7.11.1.2}%
+\contentsline {section}{\numberline {7.12}Machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tower Class Reference}{44}{section.7.12}%
+\contentsline {subsection}{\numberline {7.12.1}Constructor \& Destructor Documentation}{45}{subsection.7.12.1}%
+\contentsline {subsubsection}{\numberline {7.12.1.1}MachineGunTower()}{45}{subsubsection.7.12.1.1}%
+\contentsline {subsection}{\numberline {7.12.2}Member Function Documentation}{45}{subsection.7.12.2}%
+\contentsline {subsubsection}{\numberline {7.12.2.1}AcquireTarget}{45}{subsubsection.7.12.2.1}%
+\contentsline {subsubsection}{\numberline {7.12.2.2}Fire()}{46}{subsubsection.7.12.2.2}%
+\contentsline {section}{\numberline {7.13}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{46}{section.7.13}%
+\contentsline {subsection}{\numberline {7.13.1}Constructor \& Destructor Documentation}{46}{subsection.7.13.1}%
+\contentsline {subsubsection}{\numberline {7.13.1.1}MainWindow()}{46}{subsubsection.7.13.1.1}%
+\contentsline {subsubsection}{\numberline {7.13.1.2}$\sim $MainWindow()}{47}{subsubsection.7.13.1.2}%
+\contentsline {subsection}{\numberline {7.13.2}Member Function Documentation}{47}{subsection.7.13.2}%
+\contentsline {subsubsection}{\numberline {7.13.2.1}start\_on\_click}{47}{subsubsection.7.13.2.1}%
+\contentsline {section}{\numberline {7.14}Mother\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach Class Reference}{47}{section.7.14}%
+\contentsline {subsection}{\numberline {7.14.1}Constructor \& Destructor Documentation}{47}{subsection.7.14.1}%
+\contentsline {subsubsection}{\numberline {7.14.1.1}Mother\_cockroach()}{48}{subsubsection.7.14.1.1}%
+\contentsline {section}{\numberline {7.15}Pellet Class Reference}{48}{section.7.15}%
+\contentsline {subsection}{\numberline {7.15.1}Constructor \& Destructor Documentation}{49}{subsection.7.15.1}%
+\contentsline {subsubsection}{\numberline {7.15.1.1}Pellet()}{49}{subsubsection.7.15.1.1}%
+\contentsline {section}{\numberline {7.16}Shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tower Class Reference}{49}{section.7.16}%
+\contentsline {subsection}{\numberline {7.16.1}Constructor \& Destructor Documentation}{50}{subsection.7.16.1}%
+\contentsline {subsubsection}{\numberline {7.16.1.1}ShotgunTower()}{50}{subsubsection.7.16.1.1}%
+\contentsline {subsection}{\numberline {7.16.2}Member Function Documentation}{50}{subsection.7.16.2}%
+\contentsline {subsubsection}{\numberline {7.16.2.1}AcquireTarget}{50}{subsubsection.7.16.2.1}%
+\contentsline {subsubsection}{\numberline {7.16.2.2}Fire()}{50}{subsubsection.7.16.2.2}%
+\contentsline {section}{\numberline {7.17}Tower Class Reference}{51}{section.7.17}%
+\contentsline {subsection}{\numberline {7.17.1}Constructor \& Destructor Documentation}{52}{subsection.7.17.1}%
+\contentsline {subsubsection}{\numberline {7.17.1.1}Tower()}{52}{subsubsection.7.17.1.1}%
+\contentsline {subsection}{\numberline {7.17.2}Member Function Documentation}{52}{subsection.7.17.2}%
+\contentsline {subsubsection}{\numberline {7.17.2.1}AcquireTarget}{52}{subsubsection.7.17.2.1}%
+\contentsline {subsubsection}{\numberline {7.17.2.2}CreateAreaOfEffect()}{52}{subsubsection.7.17.2.2}%
+\contentsline {subsubsection}{\numberline {7.17.2.3}DistanceTo()}{52}{subsubsection.7.17.2.3}%
+\contentsline {subsubsection}{\numberline {7.17.2.4}Fire()}{53}{subsubsection.7.17.2.4}%
+\contentsline {subsubsection}{\numberline {7.17.2.5}GetBarrelLenght()}{53}{subsubsection.7.17.2.5}%
+\contentsline {subsubsection}{\numberline {7.17.2.6}GetCenterPoint()}{53}{subsubsection.7.17.2.6}%
+\contentsline {subsubsection}{\numberline {7.17.2.7}RotateTowardsEnemy()}{53}{subsubsection.7.17.2.7}%
+\contentsline {subsubsection}{\numberline {7.17.2.8}SetBarrelLenght()}{54}{subsubsection.7.17.2.8}%
+\contentsline {subsubsection}{\numberline {7.17.2.9}SetCenterPoint()}{54}{subsubsection.7.17.2.9}%
+\contentsline {subsection}{\numberline {7.17.3}Member Data Documentation}{54}{subsection.7.17.3}%
+\contentsline {subsubsection}{\numberline {7.17.3.1}area\_of\_effect}{54}{subsubsection.7.17.3.1}%
+\contentsline {subsubsection}{\numberline {7.17.3.2}barrel\_lenght}{54}{subsubsection.7.17.3.2}%
+\contentsline {subsubsection}{\numberline {7.17.3.3}center}{55}{subsubsection.7.17.3.3}%
+\contentsline {subsubsection}{\numberline {7.17.3.4}has\_target}{55}{subsubsection.7.17.3.4}%
+\contentsline {subsubsection}{\numberline {7.17.3.5}target}{55}{subsubsection.7.17.3.5}%
+\contentsline {section}{\numberline {7.18}Wallet Class Reference}{55}{section.7.18}%
+\contentsline {subsection}{\numberline {7.18.1}Constructor \& Destructor Documentation}{55}{subsection.7.18.1}%
+\contentsline {subsubsection}{\numberline {7.18.1.1}Wallet()}{55}{subsubsection.7.18.1.1}%
+\contentsline {subsection}{\numberline {7.18.2}Member Function Documentation}{56}{subsection.7.18.2}%
+\contentsline {subsubsection}{\numberline {7.18.2.1}Deposit()}{56}{subsubsection.7.18.2.1}%
+\contentsline {subsubsection}{\numberline {7.18.2.2}GetBalance()}{56}{subsubsection.7.18.2.2}%
+\contentsline {subsubsection}{\numberline {7.18.2.3}SetNewBalance()}{56}{subsubsection.7.18.2.3}%
+\contentsline {subsubsection}{\numberline {7.18.2.4}Withdraw()}{57}{subsubsection.7.18.2.4}%
+\contentsline {chapter}{\numberline {8}File Documentation}{59}{chapter.8}%
+\contentsline {section}{\numberline {8.1}src/adult\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.cpp File Reference}{59}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Variable Documentation}{59}{subsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.1.1}game}{59}{subsubsection.8.1.1.1}%
+\contentsline {section}{\numberline {8.2}src/basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.cpp File Reference}{59}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Variable Documentation}{60}{subsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.1.1}game}{60}{subsubsection.8.2.1.1}%
+\contentsline {section}{\numberline {8.3}src/build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.cpp File Reference}{60}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Variable Documentation}{60}{subsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.1.1}game}{60}{subsubsection.8.3.1.1}%
+\contentsline {section}{\numberline {8.4}src/build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.cpp File Reference}{60}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Variable Documentation}{61}{subsection.8.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.1.1}game}{61}{subsubsection.8.4.1.1}%
+\contentsline {section}{\numberline {8.5}src/build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.cpp File Reference}{61}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Variable Documentation}{61}{subsection.8.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.1.1}game}{61}{subsubsection.8.5.1.1}%
+\contentsline {section}{\numberline {8.6}src/bullet.cpp File Reference}{61}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Variable Documentation}{61}{subsection.8.6.1}%
+\contentsline {subsubsection}{\numberline {8.6.1.1}game}{61}{subsubsection.8.6.1.1}%
+\contentsline {section}{\numberline {8.7}src/child\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.cpp File Reference}{62}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Variable Documentation}{62}{subsection.8.7.1}%
+\contentsline {subsubsection}{\numberline {8.7.1.1}game}{62}{subsubsection.8.7.1.1}%
+\contentsline {section}{\numberline {8.8}src/cockroach.cpp File Reference}{63}{section.8.8}%
+\contentsline {subsection}{\numberline {8.8.1}Variable Documentation}{63}{subsection.8.8.1}%
+\contentsline {subsubsection}{\numberline {8.8.1.1}bullet}{63}{subsubsection.8.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.8.1.2}game}{63}{subsubsection.8.8.1.2}%
+\contentsline {section}{\numberline {8.9}src/game.cpp File Reference}{64}{section.8.9}%
+\contentsline {section}{\numberline {8.10}src/include/adult\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.h File Reference}{64}{section.8.10}%
+\contentsline {section}{\numberline {8.11}adult\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{64}{section.8.11}%
+\contentsline {section}{\numberline {8.12}src/include/basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.h File Reference}{64}{section.8.12}%
+\contentsline {section}{\numberline {8.13}basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{65}{section.8.13}%
+\contentsline {section}{\numberline {8.14}src/include/build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.hpp File Reference}{65}{section.8.14}%
+\contentsline {section}{\numberline {8.15}build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}basic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{65}{section.8.15}%
+\contentsline {section}{\numberline {8.16}src/include/build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.hpp File Reference}{65}{section.8.16}%
+\contentsline {section}{\numberline {8.17}build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{66}{section.8.17}%
+\contentsline {section}{\numberline {8.18}src/include/build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.hpp File Reference}{66}{section.8.18}%
+\contentsline {section}{\numberline {8.19}build\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}icon.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{66}{section.8.19}%
+\contentsline {section}{\numberline {8.20}src/include/bullet.h File Reference}{66}{section.8.20}%
+\contentsline {section}{\numberline {8.21}bullet.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{67}{section.8.21}%
+\contentsline {section}{\numberline {8.22}src/include/child\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.h File Reference}{67}{section.8.22}%
+\contentsline {section}{\numberline {8.23}child\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{67}{section.8.23}%
+\contentsline {section}{\numberline {8.24}src/include/cockroach.h File Reference}{68}{section.8.24}%
+\contentsline {section}{\numberline {8.25}cockroach.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{68}{section.8.25}%
+\contentsline {section}{\numberline {8.26}src/include/game.hpp File Reference}{69}{section.8.26}%
+\contentsline {subsection}{\numberline {8.26.1}Macro Definition Documentation}{69}{subsection.8.26.1}%
+\contentsline {subsubsection}{\numberline {8.26.1.1}A}{69}{subsubsection.8.26.1.1}%
+\contentsline {subsubsection}{\numberline {8.26.1.2}B}{70}{subsubsection.8.26.1.2}%
+\contentsline {subsubsection}{\numberline {8.26.1.3}C}{70}{subsubsection.8.26.1.3}%
+\contentsline {subsubsection}{\numberline {8.26.1.4}D}{70}{subsubsection.8.26.1.4}%
+\contentsline {subsubsection}{\numberline {8.26.1.5}E}{70}{subsubsection.8.26.1.5}%
+\contentsline {subsubsection}{\numberline {8.26.1.6}G}{70}{subsubsection.8.26.1.6}%
+\contentsline {subsubsection}{\numberline {8.26.1.7}L}{70}{subsubsection.8.26.1.7}%
+\contentsline {subsubsection}{\numberline {8.26.1.8}M}{70}{subsubsection.8.26.1.8}%
+\contentsline {subsubsection}{\numberline {8.26.1.9}R}{70}{subsubsection.8.26.1.9}%
+\contentsline {subsubsection}{\numberline {8.26.1.10}S}{71}{subsubsection.8.26.1.10}%
+\contentsline {subsubsection}{\numberline {8.26.1.11}W}{71}{subsubsection.8.26.1.11}%
+\contentsline {subsubsection}{\numberline {8.26.1.12}X}{71}{subsubsection.8.26.1.12}%
+\contentsline {section}{\numberline {8.27}game.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{71}{section.8.27}%
+\contentsline {section}{\numberline {8.28}src/include/item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}not\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tile.h File Reference}{72}{section.8.28}%
+\contentsline {section}{\numberline {8.29}item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}not\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{73}{section.8.29}%
+\contentsline {section}{\numberline {8.30}src/include/item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tile.h File Reference}{73}{section.8.30}%
+\contentsline {section}{\numberline {8.31}item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tile.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{73}{section.8.31}%
+\contentsline {section}{\numberline {8.32}src/include/machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.h File Reference}{73}{section.8.32}%
+\contentsline {section}{\numberline {8.33}machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{74}{section.8.33}%
+\contentsline {section}{\numberline {8.34}src/include/mainwindow.h File Reference}{74}{section.8.34}%
+\contentsline {section}{\numberline {8.35}mainwindow.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{74}{section.8.35}%
+\contentsline {section}{\numberline {8.36}src/include/mother\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.h File Reference}{75}{section.8.36}%
+\contentsline {section}{\numberline {8.37}mother\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{75}{section.8.37}%
+\contentsline {section}{\numberline {8.38}src/include/pellet.h File Reference}{75}{section.8.38}%
+\contentsline {section}{\numberline {8.39}pellet.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{75}{section.8.39}%
+\contentsline {section}{\numberline {8.40}src/include/shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.h File Reference}{76}{section.8.40}%
+\contentsline {section}{\numberline {8.41}shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{76}{section.8.41}%
+\contentsline {section}{\numberline {8.42}src/include/tower.h File Reference}{76}{section.8.42}%
+\contentsline {section}{\numberline {8.43}tower.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{76}{section.8.43}%
+\contentsline {section}{\numberline {8.44}src/include/wallet.hpp File Reference}{77}{section.8.44}%
+\contentsline {section}{\numberline {8.45}wallet.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{77}{section.8.45}%
+\contentsline {section}{\numberline {8.46}src/item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}not\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tile.cpp File Reference}{77}{section.8.46}%
+\contentsline {section}{\numberline {8.47}src/item\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}placeble\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tile.cpp File Reference}{78}{section.8.47}%
+\contentsline {section}{\numberline {8.48}src/machine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}gun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.cpp File Reference}{78}{section.8.48}%
+\contentsline {subsection}{\numberline {8.48.1}Variable Documentation}{78}{subsection.8.48.1}%
+\contentsline {subsubsection}{\numberline {8.48.1.1}game}{78}{subsubsection.8.48.1.1}%
+\contentsline {section}{\numberline {8.49}src/main.cpp File Reference}{78}{section.8.49}%
+\contentsline {subsection}{\numberline {8.49.1}Function Documentation}{79}{subsection.8.49.1}%
+\contentsline {subsubsection}{\numberline {8.49.1.1}main()}{79}{subsubsection.8.49.1.1}%
+\contentsline {section}{\numberline {8.50}src/mainwindow.cpp File Reference}{79}{section.8.50}%
+\contentsline {subsection}{\numberline {8.50.1}Variable Documentation}{79}{subsection.8.50.1}%
+\contentsline {subsubsection}{\numberline {8.50.1.1}game}{79}{subsubsection.8.50.1.1}%
+\contentsline {section}{\numberline {8.51}src/mother\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cockroach.cpp File Reference}{80}{section.8.51}%
+\contentsline {subsection}{\numberline {8.51.1}Variable Documentation}{80}{subsection.8.51.1}%
+\contentsline {subsubsection}{\numberline {8.51.1.1}game}{80}{subsubsection.8.51.1.1}%
+\contentsline {section}{\numberline {8.52}src/pellet.cpp File Reference}{80}{section.8.52}%
+\contentsline {section}{\numberline {8.53}src/readme.md File Reference}{81}{section.8.53}%
+\contentsline {section}{\numberline {8.54}src/shotgun\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tower.cpp File Reference}{81}{section.8.54}%
+\contentsline {subsection}{\numberline {8.54.1}Variable Documentation}{81}{subsection.8.54.1}%
+\contentsline {subsubsection}{\numberline {8.54.1.1}game}{81}{subsubsection.8.54.1.1}%
+\contentsline {section}{\numberline {8.55}src/tower.cpp File Reference}{81}{section.8.55}%
+\contentsline {subsection}{\numberline {8.55.1}Variable Documentation}{82}{subsection.8.55.1}%
+\contentsline {subsubsection}{\numberline {8.55.1.1}game}{82}{subsubsection.8.55.1.1}%
+\contentsline {section}{\numberline {8.56}src/wallet.cpp File Reference}{82}{section.8.56}%
+\contentsline {chapter}{Index}{83}{section*.91}%

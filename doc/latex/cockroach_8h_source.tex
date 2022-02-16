@@ -1,0 +1,65 @@
+\hypertarget{cockroach_8h_source}{}\doxysection{cockroach.\+h}
+\label{cockroach_8h_source}\index{src/include/cockroach.h@{src/include/cockroach.h}}
+\mbox{\hyperlink{cockroach_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef COCKROACH\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define COCKROACH\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QGraphicsPixmapItem>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QGraphicsPolygonItem>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <QGraphicsItem>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QPointF>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QObject>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <QList>}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_cockroach}{Cockroach}} : \textcolor{keyword}{public} QObject, \textcolor{keyword}{public} QGraphicsPixmapItem}
+\DoxyCodeLine{12 \{}
+\DoxyCodeLine{13     Q\_OBJECT}
+\DoxyCodeLine{14 \textcolor{keyword}{public}:}
+\DoxyCodeLine{15     \textcolor{comment}{// rule of three: default constructor, destructor, denied copy}}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_cockroach_a3dbf6cf416817b9ffa73643bfbc3a61d}{Cockroach}}() = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{17     \mbox{\hyperlink{class_cockroach_a3dbf6cf416817b9ffa73643bfbc3a61d}{Cockroach}}(\textcolor{keywordtype}{int} health, \textcolor{keywordtype}{int} speed,}
+\DoxyCodeLine{18               \textcolor{keywordtype}{int} value, QList<QPointF> pointsToFollow,}
+\DoxyCodeLine{19               QGraphicsItem *parent = 0);}
+\DoxyCodeLine{20     \mbox{\hyperlink{class_cockroach_a081bbe0163c7709f0262b70881b6e7ab}{Cockroach}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_cockroach}{Cockroach}} \&Coch) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{21     \mbox{\hyperlink{class_cockroach}{Cockroach}} \&\mbox{\hyperlink{class_cockroach_ac49938dd1c79a8bf3ade3d09bc814a2a}{operator=}}(\mbox{\hyperlink{class_cockroach}{Cockroach}} \&coch) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{22     \mbox{\hyperlink{class_cockroach_a9644d0d7713fcaf2fe7d47ce7a986c6b}{\string~Cockroach}}() = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a4abbd52cbc460ee4ff28841e6523bf1e}{GetValue}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{25     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_abdc70c3b0dda0caeee03a0739951f993}{GetHealth}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{26     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a9472f3637044cc5700aebf6f78a6a2e7}{GetSpeed}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{27     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a889b5f2e5ca19603f19310de30ac60cb}{GetDestIndex}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{28     QPointF \mbox{\hyperlink{class_cockroach_af9cc0889107e75f8b0d55719cb7affce}{GetDest}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_cockroach_aa77d9485321ecd7bc314abf0f598643e}{dest\_}}; \}}
+\DoxyCodeLine{29     QList<QPointF> \mbox{\hyperlink{class_cockroach_a1dcf7728efcad483b9f2a29531c3410a}{GetPointList}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_cockroach_a8518aa5cd88da7c79f095bec851fe732}{points\_}}; \}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{keyword}{public} slots:}
+\DoxyCodeLine{32     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cockroach_a9f9276ba005a49bdc33722316d4c0560}{Move}}();}
+\DoxyCodeLine{33     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cockroach_af16e68150a46b20cd4e93d9a05a0e587}{GotHit}}(\textcolor{keywordtype}{int} damage);}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{36     QList<QPointF> \mbox{\hyperlink{class_cockroach_a8518aa5cd88da7c79f095bec851fe732}{points\_}};}
+\DoxyCodeLine{37     QPointF \mbox{\hyperlink{class_cockroach_aa77d9485321ecd7bc314abf0f598643e}{dest\_}};}
+\DoxyCodeLine{38     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a041868071b30fa9c718240e608dfe228}{destList\_index\_}};}
+\DoxyCodeLine{39     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a2424e47d48bd8323a5610090db8b0c16}{health\_}};}
+\DoxyCodeLine{40     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a9fd10f128f0316c4743e46540b891c6b}{speed\_}};}
+\DoxyCodeLine{41     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_ae5555499c0cf048cff6f9d9d8057d704}{value\_}};}
+\DoxyCodeLine{42     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_cockroach_ab9f0c8d0bd29730f73edab6d10cce09d}{dx}};}
+\DoxyCodeLine{43     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_cockroach_a579a9d068fbaee1819624e4c6ea1bc2a}{dy}};}
+\DoxyCodeLine{44     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a15543ffe2b3277ea85d8c5de4d8f6d58}{assB}};}
+\DoxyCodeLine{45     qreal \mbox{\hyperlink{class_cockroach_a408dc541667bc2a4161dc2dcafa04d26}{variant\_}} = 0;}
+\DoxyCodeLine{46     QTimer *\mbox{\hyperlink{class_cockroach_a3d73aba005f92da50a35891f7351048a}{timer\_}} = \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{47     QList<QGraphicsItem *> \mbox{\hyperlink{class_cockroach_a545968543c3245834c2461c41f66a43d}{colliding\_items}};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cockroach_aa9c60764b65945c83ee4e9b8511fd87c}{PreventCollide}}();}
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cockroach_a177be30c9520ef70f4081f49ce4ba80d}{PreventCollidedToCocsh}}();}
+\DoxyCodeLine{51     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cockroach_a97a2aa7ca98dc259aa56244a266ca824}{PreventOutOfBoundry}}();}
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cockroach_a730147aed23f918964991089700d20e9}{BounceToWall}}();}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cockroach_ae0825f47fec5e29d6e8005f524dbf4a0}{WalkTo}}(QPointF);}
+\DoxyCodeLine{55     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_cockroach_a55288473b572b47602b956c33dffbbe7}{IsDead}}();}
+\DoxyCodeLine{56     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_cockroach_a6982a298d112f80769796857ca2d7dcc}{RotateToPoint}}(QPointF p);}
+\DoxyCodeLine{57 \};}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// COCKROACH\_H}}
+
+\end{DoxyCode}

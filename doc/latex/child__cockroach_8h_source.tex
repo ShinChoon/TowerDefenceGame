@@ -1,0 +1,22 @@
+\hypertarget{child__cockroach_8h_source}{}\doxysection{child\+\_\+cockroach.\+h}
+\label{child__cockroach_8h_source}\index{src/include/child\_cockroach.h@{src/include/child\_cockroach.h}}
+\mbox{\hyperlink{child__cockroach_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef CHILD\_COCKROACH\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define CHILD\_COCKROACH\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{cockroach_8h}{cockroach.h}}"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }\mbox{\hyperlink{class_child__cockroach}{Child\_cockroach}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_cockroach}{Cockroach}}}
+\DoxyCodeLine{7 \{}
+\DoxyCodeLine{8 \textcolor{keyword}{public}:}
+\DoxyCodeLine{9     \mbox{\hyperlink{class_child__cockroach_af2d5cf80433a7e2b5225cd8f47cc7585}{Child\_cockroach}}(\textcolor{keywordtype}{int} health, \textcolor{keywordtype}{int} speed, \textcolor{keywordtype}{int} value, QList<QPointF> pointsToFollow, \textcolor{keywordtype}{int} posit\_index, QPointF q\_offset, QGraphicsItem *parent = 0);}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{private}:}
+\DoxyCodeLine{12     \textcolor{keywordtype}{void} StartBehindDestination(QPointF);}
+\DoxyCodeLine{13     \textcolor{keywordtype}{void} GotHit(\textcolor{keywordtype}{int} damage);}
+\DoxyCodeLine{14 \};}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// CHILD\_COCKROACH\_H}}
+
+\end{DoxyCode}

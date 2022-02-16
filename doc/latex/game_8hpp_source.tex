@@ -1,0 +1,126 @@
+\hypertarget{game_8hpp_source}{}\doxysection{game.\+hpp}
+\label{game_8hpp_source}\index{src/include/game.hpp@{src/include/game.hpp}}
+\mbox{\hyperlink{game_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef GAME\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define GAME\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QGraphicsView>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QGraphicsRectItem>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <QGraphicsView>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QGraphicsPixmapItem>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QColor>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <QObject>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <QTimer>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <QPushButton>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QMouseEvent>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <QDebug>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <QMessageBox>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <QGraphicsTextItem>}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{tower_8h}{tower.h}}"{}}}
+\DoxyCodeLine{19 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{wallet_8hpp}{wallet.hpp}}"{}}}
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{build__basic__tower__icon_8hpp}{build\_basic\_tower\_icon.hpp}}"{}}}
+\DoxyCodeLine{21 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{build__machine__gun__tower__icon_8hpp}{build\_machine\_gun\_tower\_icon.hpp}}"{}}}
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{build__shotgun__tower__icon_8hpp}{build\_shotgun\_tower\_icon.hpp}}"{}}}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 \textcolor{comment}{// \#include <queue>}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#define G 1  }}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#define R 2  }}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#define A 3  }}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#define B 4  }}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#define M 5  }}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#define S 6  }}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#define E 7  }}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#define W 8  }}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#define D 9  }}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define X 10 }}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#define L 11 }}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define C 12 }}
+\DoxyCodeLine{40 \textcolor{keyword}{class }\mbox{\hyperlink{class_game}{Game}} : \textcolor{keyword}{public} QGraphicsView, \textcolor{keyword}{public} \mbox{\hyperlink{class_wallet}{Wallet}}}
+\DoxyCodeLine{41 \{}
+\DoxyCodeLine{42     Q\_OBJECT}
+\DoxyCodeLine{43 \textcolor{keyword}{public}:}
+\DoxyCodeLine{44     \mbox{\hyperlink{class_game_af327fe2a81c2f4a265d378e20b26b4ee}{Game}}(\textcolor{keywordtype}{int} tile\_width, \textcolor{keywordtype}{int} tile\_height, \textcolor{keywordtype}{int} player\_balance);}
+\DoxyCodeLine{45     \mbox{\hyperlink{class_game_ae3d112ca6e0e55150d2fdbc704474530}{\string~Game}}();}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47     QGraphicsScene *\mbox{\hyperlink{class_game_a8119e3b9a632906c6808fa294b46a92a}{scene}};}
+\DoxyCodeLine{48     QGraphicsView *\mbox{\hyperlink{class_game_af336c3f6691b0689a529bba908db4b04}{view}};}
+\DoxyCodeLine{49     QGraphicsPixmapItem *\mbox{\hyperlink{class_game_ac8bde3bd16f503846f66bbb866c3b7b9}{cursor}};}
+\DoxyCodeLine{50     \mbox{\hyperlink{class_tower}{Tower}} *\mbox{\hyperlink{class_game_a5917b4e021a93be7666ebc2ef4529401}{building}};}
+\DoxyCodeLine{51     QTimer *\mbox{\hyperlink{class_game_a6fc89dc175ed64c64f03d4b26b95d110}{SpawnChildTimer}};}
+\DoxyCodeLine{52     QTimer *\mbox{\hyperlink{class_game_a7c8cb26056ecdb8acc25e2433da18829}{SpawnAdultTimer}};}
+\DoxyCodeLine{53     QTimer *\mbox{\hyperlink{class_game_ae95558ff80ca12532a11a479269a0a5d}{SpawnMotherTimer}};}
+\DoxyCodeLine{54     QTimer *\mbox{\hyperlink{class_game_aa67fbf1443a0d2ddfc27fc5b95bfafd3}{WaveCheckTimer}};}
+\DoxyCodeLine{55     QTimer *\mbox{\hyperlink{class_game_a002642314bcea4d09c8f4870fd9829fc}{BalanceUpdateTimer}};}
+\DoxyCodeLine{56     QList<QPointF> \mbox{\hyperlink{class_game_abe95b23433c0353887099928a5573c59}{pointsToFollow}};}
+\DoxyCodeLine{57     QPushButton *\mbox{\hyperlink{class_game_afb10d41f3f7802e8e48f8ee894534e38}{done\_button}};}
+\DoxyCodeLine{58     QMessageBox *\mbox{\hyperlink{class_game_a9ed36d08e461911578054958699e0287}{WaveCompleteMsgBox}};}
+\DoxyCodeLine{59     QMessageBox *\mbox{\hyperlink{class_game_a534955dde1e28c7169f1c8bd021dc43e}{GameOverMsgBox}};}
+\DoxyCodeLine{60     QMessageBox *\mbox{\hyperlink{class_game_a978a23d86116bdb70c7ec7df8b3f4854}{LevelCompleteMsgBox}};}
+\DoxyCodeLine{61     QGraphicsTextItem *\mbox{\hyperlink{class_game_a6c7333b3b679e7a6817d1e5ef23b0e9e}{CurrentBalanceText}};}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63     \mbox{\hyperlink{class_build_basic_tower_icon}{BuildBasicTowerIcon}} *\mbox{\hyperlink{class_game_a9538d6590e57dc8a63729a15298724d3}{basic\_tower\_icon}};}
+\DoxyCodeLine{64     \mbox{\hyperlink{class_build_machine_gun_tower_icon}{BuildMachineGunTowerIcon}} *\mbox{\hyperlink{class_game_aa9ca56efb69a5cdacfd7435825795d60}{machine\_gun\_tower\_icon}};}
+\DoxyCodeLine{65     \mbox{\hyperlink{class_build_shotgun_tower_icon}{BuildShotgunTowerIcon}} *\mbox{\hyperlink{class_game_ab1182a4d1e27759d1180158c71cdd149}{shotgun\_tower\_icon}};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_a9cb411abb26cffbe9125ecfad93084de}{child\_killed}};}
+\DoxyCodeLine{68     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_ae401b2f73811a2f65fc3d2b974512097}{adult\_killed}};}
+\DoxyCodeLine{69     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_afab68453dad0bb1332ee3b355ba7a06c}{mother\_killed}};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_a123a5a90aee413cd87840b0915a890e2}{child\_spawmed}};}
+\DoxyCodeLine{72     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_a90a0a695e9207f925896d5097dc0b33b}{adult\_spawmed}};}
+\DoxyCodeLine{73     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_a06843f361afdcf5cae048b13c2f5b097}{mother\_spawmed}};}
+\DoxyCodeLine{74     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_a5f2870116ae8afba14f2c8c408af4e8c}{spawn\_interval}};}
+\DoxyCodeLine{75     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_game_abff62dab7873f41205d91ae1a7977007}{total\_spawned}};}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_game_af3b389a750f1222fb7db61358cf4e0e6}{game\_over\_flag}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{78     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a80c4a96df06cfc1aedc984c1a6cd25e8}{createEnemies}}(\textcolor{keywordtype}{int} child\_ammount, \textcolor{keywordtype}{int} adult\_ammount, \textcolor{keywordtype}{int} mother\_ammount, \textcolor{keywordtype}{int} interval);}
+\DoxyCodeLine{79     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a7272e282812b8af0be83044db196dc6c}{setCursor}}(QString filename);}
+\DoxyCodeLine{80     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_ad761e49ff42758930e76b477d08ba068}{mouseMoveEvent}}(QMouseEvent *event);}
+\DoxyCodeLine{81     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a704ba119948eebd1b6dfc547de967796}{mousePressEvent}}(QMouseEvent *event);}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{83     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a7a3319aee646037d616114fe76e23073}{LevelTwo}}();}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 \textcolor{keyword}{public} slots:}
+\DoxyCodeLine{86 \textcolor{comment}{//    void spawnEnemy();}}
+\DoxyCodeLine{87     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a24977814cf4e883e0bbcefdf576ff7aa}{SpawnChild}}();}
+\DoxyCodeLine{88     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a43fd0a3e3c90eec156ac6163865ab12e}{SpawnAdult}}();}
+\DoxyCodeLine{89     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a547f319b93a0424ce9027fbeaead1f44}{SpawnMother}}();}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{91     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a5733ef6f55dbeeec4a608c64e67c559e}{StartWave}}();}
+\DoxyCodeLine{92     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a2698f9a35f5a6ffe6d98854a532c477b}{IsWaveComplete}}();}
+\DoxyCodeLine{93     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_ae838c3ee7f753c4eecd54c956a1789ae}{WaveComplete}}();}
+\DoxyCodeLine{94     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a851d9367fddbdbc080841ee2e7011e2e}{WaitForPlayer}}();}
+\DoxyCodeLine{95     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_ace85e926f2bf391130fdd1298122ef1f}{ResetLevel}}();}
+\DoxyCodeLine{96     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_aa33783d0bfdf55056ddf27b045aa1cbf}{CreateNewLevel}}();}
+\DoxyCodeLine{97     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a503da4f858d6e7655a3b9bd4687b53cb}{UpdateBalance}}();}
+\DoxyCodeLine{98 }
+\DoxyCodeLine{99 signals:}
+\DoxyCodeLine{100     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a34c71c3369c9b26b9d2cdb61238a26a8}{StartNextWave}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{101     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_ac00297e3e4871067851244bd3b165b2c}{GameOver}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{103 \textcolor{keyword}{private}:}
+\DoxyCodeLine{104     QList<QPointF> enemy\_path\_;}
+\DoxyCodeLine{105     std::vector<std::vector<std::pair<int, QPointF>>> map\_info\_;}
+\DoxyCodeLine{106     std::vector<std::vector<std::vector<int>>> game\_level\_map\_layouts\_;}
+\DoxyCodeLine{107     std::vector<std::vector<std::vector<int>>> levels\_;}
+\DoxyCodeLine{108     \textcolor{keywordtype}{int} current\_wave\_ = 0;}
+\DoxyCodeLine{109     \textcolor{keywordtype}{int} current\_level\_ = 0;}
+\DoxyCodeLine{110     \textcolor{keywordtype}{int} wave\_left\_ = 5;}
+\DoxyCodeLine{111     \textcolor{keywordtype}{int} tile\_width\_;}
+\DoxyCodeLine{112     \textcolor{keywordtype}{int} tile\_height\_;}
+\DoxyCodeLine{113     \textcolor{keywordtype}{int} start\_balance\_;}
+\DoxyCodeLine{114 }
+\DoxyCodeLine{115     \textcolor{keywordtype}{void} BuildMap(std::vector<std::vector<int>> \&map\_layout);}
+\DoxyCodeLine{116     \textcolor{keywordtype}{void} GenerateEnemyPath(\textcolor{keywordtype}{int} start\_cell\_x\_pos, \textcolor{keywordtype}{int} start\_cell\_y\_pos);}
+\DoxyCodeLine{117     \textcolor{keywordtype}{void} DrawEnemyPath(QList<QPointF> \&path);}
+\DoxyCodeLine{118     \textcolor{keywordtype}{void} InitializeGameMaplayout();}
+\DoxyCodeLine{119     \textcolor{keywordtype}{void} InitializeLevelInfo();}
+\DoxyCodeLine{120 \};}
+\DoxyCodeLine{121 }
+\DoxyCodeLine{122 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//GAME\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,44 @@
+\hypertarget{tower_8h_source}{}\doxysection{tower.\+h}
+\label{tower_8h_source}\index{src/include/tower.h@{src/include/tower.h}}
+\mbox{\hyperlink{tower_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef TOWER\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define TOWER\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QGraphicsPixmapItem>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QGraphicsRectItem>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <QGraphicsPolygonItem>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <QGraphicsItem>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QPointF>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <QObject>}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{class_tower}{Tower}} : \textcolor{keyword}{public} QObject, \textcolor{keyword}{public} QGraphicsPixmapItem\{}
+\DoxyCodeLine{14     Q\_OBJECT}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_tower_aa3ff2c932ed113a80a122dbe2e3e0176}{Tower}}(QGraphicsItem * parent = 0);}
+\DoxyCodeLine{17     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_tower_a56fc2c61e29b0d0aa49408b898430061}{DistanceTo}}(QGraphicsItem * item);}
+\DoxyCodeLine{18     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_tower_aea8fb107e04ebae41d59f69b23cb0bbf}{Fire}}();}
+\DoxyCodeLine{19     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_tower_a0fec2e591166f67a775ed9b0c90b6d61}{RotateTowardsEnemy}}(\textcolor{keywordtype}{int} angle);}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_tower_a7d299791d372249be9bd1252a33d9346}{SetCenterPoint}}(QPointF center\_point);}
+\DoxyCodeLine{22     QPointF \mbox{\hyperlink{class_tower_a7e3c7ca24c05647f15ff28d5e6ddca7b}{GetCenterPoint}}();}
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_tower_a36333fdb79f4e537c717f2346b54b307}{SetBarrelLenght}}(\textcolor{keywordtype}{int} lenght);}
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_tower_aa124b0fda860a2f59677f34b4e3f0f4e}{GetBarrelLenght}}();}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_tower_a4bd724b3550e1df36fbfebce1747f7a0}{CreateAreaOfEffect}}(\textcolor{keywordtype}{int} scale\_factor);}
+\DoxyCodeLine{26 \textcolor{keyword}{public} slots:}
+\DoxyCodeLine{27     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_tower_a5f4163ddfe007bd07ae7ed21c6992d29}{AcquireTarget}}();}
+\DoxyCodeLine{28 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{29     QGraphicsPolygonItem * \mbox{\hyperlink{class_tower_afdaab3319ba053398e0473d296191eea}{area\_of\_effect}};}
+\DoxyCodeLine{30     QPointF \mbox{\hyperlink{class_tower_a7d669babe059b7e584c0afe77e281d8a}{target}};}
+\DoxyCodeLine{31     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_tower_a568b9b12bc604fb245a79476b71d6557}{has\_target}};}
+\DoxyCodeLine{32     QPointF \mbox{\hyperlink{class_tower_a2f56df77d34f92f23876441c40c647c9}{center}};}
+\DoxyCodeLine{33     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_tower_ad1f7aaff6d292d35b7c0106de0c6266e}{barrel\_lenght}};}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{keyword}{private}:}
+\DoxyCodeLine{36     \textcolor{comment}{//implement copy contructor and copy assingment overload here}}
+\DoxyCodeLine{37 \};}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// TOWER\_H}}
+
+\end{DoxyCode}
